@@ -114,7 +114,7 @@ margin-left: 34%;
 }
 </style>
 <div class="container">
-    <form id="contact" onsubmit="register(); return false;" action="" method="POST">
+    <div id="contact">
         <h3>Eureka</h3>
         <div>&nbsp;</div>
         <fieldset>
@@ -164,10 +164,10 @@ margin-left: 34%;
             <textarea placeholder="Abstract*" id="abstract"></textarea>
         </fieldset>
         <fieldset style="padding: 2.5%;">
-            <button name="submit" type="submit" onsubmit="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button name="submit" type="submit" onclick="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
         </fieldset>
         <fieldset>
             <div id="error" style="font-size: 1.5em; display: hidden;"></div>
         </fieldset>
-    </form>
+    </div>
 </div>
