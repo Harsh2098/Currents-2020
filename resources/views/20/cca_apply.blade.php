@@ -3,7 +3,7 @@
   var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{asset('https://currents.nitt.edu/js/cca_script.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/cca_script.js')}}"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
@@ -26,7 +26,7 @@ body {
   font-size: 12px;
   line-height:30px;
   color:#777;
-  background:#0CF;
+  background:#191919;
 }
 
 .container {
@@ -39,7 +39,7 @@ body {
 form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="url"], form input[type="number"], form textarea, form button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 form {
-  background:#F9F9F9;
+  background:#4c4c4c;
   padding:25px;
   margin:50px 0;
 }
@@ -122,7 +122,14 @@ form input:focus, form textarea:focus {
 :-ms-input-placeholder {
  color:#888;
 }
-
+#message{
+   font-size: 1.5em; 
+   color: white;
+   margin-bottom: 20px;
+ }
+ #error{
+   display: none;
+ }
 </style>
 <div class="container">
 
@@ -130,50 +137,49 @@ form input:focus, form textarea:focus {
     <h3>Currents Campus Ambassador</h3>
     <div>&nbsp;</div>
     <div id="form">
-    <fieldset>
-      <input placeholder="Name" id="name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Email" id="email" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Re-enter email" id="re-email" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Date of birth (DD/MM/YYYY)" id="dob" type="text" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="College" id="college" type="text" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Branch of Study" id="branch" type="text" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Year of Study" id="year" type="text" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Position of Responsibility in College (Put NA if not applicable)" id="por" type="text" tabindex="2" required="">
-    </fieldset>
-    <fieldset>
-      <input placeholder="Mobile Number" id="mobile" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Phone Number (Permanent)" id="perma_phone" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Current Address" id="curr_addr" type="text" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Permanent Address" id="perm_addr" type="text" tabindex="3" required>
-    </fieldset>    
-    <fieldset>
-      <button name="submit" type="submit" onclick="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </div>
       <fieldset>
-      <div id="error" style="font-size: 1.5em; display: hidden;"></div>
-   </fieldset>
-
+        <input placeholder="Name" id="name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Email" id="email" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Re-enter email" id="re-email" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Date of birth (DD/MM/YYYY)" id="dob" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="College" id="college" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Branch of Study" id="branch" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Year of Study" id="year" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Position of Responsibility in College (Put NA if not applicable)" id="por" type="text" tabindex="2" required="">
+      </fieldset>
+      <fieldset>
+        <input placeholder="Mobile Number" id="mobile" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Phone Number (Permanent)" id="perma_phone" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Current Address" id="curr_addr" type="text" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Permanent Address" id="perm_addr" type="text" tabindex="3" required>
+      </fieldset>    
+      <fieldset>
+        <button name="submit" type="submit" onclick="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </div>
+    <fieldset id="error">
+      <div id="message"></div>
+        <button id="accept" type="submit" onclick="redirect(); return false;" id="contact-submit" data-submit="...Sending">Okay</button>
+    </fieldset>
   </form>
-
 </div>
