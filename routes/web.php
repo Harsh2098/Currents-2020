@@ -64,7 +64,7 @@ Route::get('/eureka', function() {
 	return view('20.eureka');
 });
 Route::get('/volts', function() {
-	return view('19.coming_soon');
+	return view('20.volts');
 });
 Route::get('/volts/bengaluru', function() {
 	return view('19.bangalore');
@@ -147,18 +147,16 @@ Route::get('/volts/madurai', function() {
 */
 Route::get('/volts/coimbatore', function() {
 	$arr = ['city' => 'Coimbatore',
-			'college' => 'Karpagam Academy of Higher Education',
+			'college' => 'PSG College of Technology',
 			'area' => 'Coimbatore',
-			'date' => '27th January 2019',
-			'venue' => 'KARPAGAM ACADEMY OF HIGHER EDUCATION,<br>
-					Salem - Kochi Highway, Eachanari,<br>
-					Coimbatore, Tamil Nadu 641021',
+			'date' => '25th January 2020',
+			'venue' => 'Coimbatore, Tamil Nadu 641021',
 			'timings' => '10 AM to 1 PM',
-			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5540.3256633085175!2d76.98564680190505!3d10.91783337855187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85af2d5b63f75%3A0x958123c48e7c849d!2sKarpagam+Academy+of+Higher+Education!5e0!3m2!1sen!2sin!4v1548218228167',
-			'link' => 'https://www.townscript.com/e/simulacrum-currents-coimbatore',
-			'gate' => 'https://www.townscript.com/e/mock-gate-examination-coimbatore-gate'
+			'map' => 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15664.742864444032!2d77.0021273!3d11.0246887!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x137d95bfd8909293!2sPSG%20College%20Of%20Technology!5e0!3m2!1sen!2sin!4v1579514876294!5m2!1sen!2sin',
+			'link' => 'https://forms.gle/sEZH4cvHCykFJQmz9',
+			'cca' => 'https://currents.nitt.edu/cca'
 		];
-	return view('19.event_or', $arr);
+	return view('20.gate', $arr);
 });
 
 Route::get('/volts/pondicherry', function() {
