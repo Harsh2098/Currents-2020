@@ -86,10 +86,14 @@ Route::post('/cca/apply', function(Request $request) {
 
 
         $last = CcaDetails::all()->last();
-        $last_id = $last->id;
+        if($last){
+            $last_id = $last->id;
+        }
+        else{
+            $last_id = 0;
+        }
 
-        $ref_id = "CCA19-".str_pad($last_id + 1, 4, "0", STR_PAD_LEFT);
-
+        $ref_id = "CCA20-".str_pad($last_id + 1, 4, "0", STR_PAD_LEFT);
 
         $cca_registration = new CcaDetails();
         $cca_registration->name = $name;
