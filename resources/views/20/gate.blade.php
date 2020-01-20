@@ -22,7 +22,7 @@ body {
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background-image: url("{{ asset('https://currents.nitt.edu/images/volts-bg.jpeg') }}");
+	background-image: url("{{ asset('https://currents.nitt.edu/images/gate-exam-20.jpeg') }}");
 	background-repeat:  no-repeat;
 	background-position: 0% -6%;
 	background-size: 100%;
@@ -32,7 +32,7 @@ body {
 	text-align: right;
 	font-weight: bold;
 	font-size: 2.5em;
-	padding: 5%;
+	padding: 2%;
 	padding-top: 3%;
 }
 .content{
@@ -186,7 +186,6 @@ color: black;
 		<div>&nbsp;</div>
 		<div class="ename">Mock GATE Examination</div>
 		<div class="title"> VOLTS {{ $city }}<br><br> {{ $college }}<br> {{ $area }} <br><br> {{ $date }}</div>
-<br><br>
 		<div style="margin-top: 2%;">
 			<span style="font-size: 1.8em; float: left; margin-left: 4%">Register for Campus Ambassador</span>
 			<span style="font-size: 1.8em; float: right; margin-right: 4%;">Register for Mock Gate Exam</span>
@@ -194,7 +193,7 @@ color: black;
 			<button type="button" onclick="location='{{ $cca }}'" style="float: left; margin-left: 5%;" class="_button tsbutton" >Register for CCA !</button>
 			<button type="button" onclick="location='{{ $link }}'" class="_button tsbutton" >Register Now !</button>
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
 		<div class="content" id="grid">
 			<section id="overview">
 				<h1>Overview</h1>
