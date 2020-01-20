@@ -22,7 +22,7 @@ body {
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background-image: url("{{ asset('images/volts-bg.jpeg') }}");
+	background-image: url("{{ asset('http://currents.nitt.edu/images/volts-bg.jpeg') }}");
 	background-repeat:  no-repeat;
 	background-position: 0% -6%;
 	background-size: 100%;
@@ -187,7 +187,7 @@ color: black;
 		<div class="ename">Mock GATE Examination</div>
 		<div class="title"> VOLTS {{ $city }}<br><br> {{ $college }}<br> {{ $area }} <br><br> {{ $date }}</div>
 <br><br>
-		<div style="margin-top: 5%;">
+		<div style="margin-top: 2%;">
 			<span style="font-size: 1.8em; float: left; margin-left: 4%">Register for Campus Ambassador</span>
 			<span style="font-size: 1.8em; float: right; margin-right: 4%;">Register for Mock Gate Exam</span>
 			<br><br><br>
@@ -237,7 +237,7 @@ color: black;
 			</section>
 			<section id="contact">
 				<h1>Contact</h1>
-				<p>Harinaath Gobi<br>+91 82201 08895</p>
+				<p>Harinaathgobi<br>+91 82201 08895</p>
 				<p>D C Vivek<br>+91 96001 33170</p>
 				<p>You can also reach out to us at <a href="mailto:eee.currents@gmail.com">eee.currents@gmail.com</a></p>
 			</section>
