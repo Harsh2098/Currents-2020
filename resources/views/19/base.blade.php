@@ -29,10 +29,10 @@
                         </div>
                         <div class="h_list_cont">
                             <div class="h_list">
-                                <div class="h_menu_list" id="about" onclick="location.href='/about'">
-                                    About
+                                <div class="h_menu_list" id="about" onclick="location.href='/'">
+                                    Home
                                 </div>
-                                <div class="h_menu_list" id="about" onclick="location.href='/schedule'">
+                                <!-- <div class="h_menu_list" id="about" onclick="location.href='/schedule'">
                                     Schedule
                                 </div>
                                 <div class="h_menu_list" id="events" onclick="location.href='/events'">
@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="h_menu_list" id="lectures" onclick="location.href='/lectures'">
                                     Lectures
-                                </div>
+                                </div> -->
                                 <div class="h_menu_list" id="workshops" onclick="location.href='/workshops'">
                                     Workshops
                                 </div>
@@ -50,15 +50,15 @@
                                 <div class="h_menu_list" id="volts" onclick="location.href='/volts'">
                                     Volts
                                 </div>
-                                <div class="h_menu_list" id="hospitality" onclick="location.href='/hospitality'">
-                                    Hospitality
+                                <div class="h_menu_list" id="cca" onclick="location.href='/cca'">
+                                    Currents Ambassador
                                 </div>
-                                <div class="h_menu_list" id="tronicals" onclick="location.href='/tronicals'">
+                                <!--<div class="h_menu_list" id="tronicals" onclick="location.href='/tronicals'">
                                     Tronicals
                                 </div>
                                 <div class="h_menu_list" id="sponsors" onclick="location.href='/sponsors'">
                                     Sponsors
-                                </div>
+                                </div> -->
                                 <div class="h_menu_list" id="contact" onclick="location.href='https://www.uniqtechnologies.co.in/'">
                                     UNIQ
                                 </div>

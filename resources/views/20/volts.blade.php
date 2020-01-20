@@ -116,8 +116,8 @@ html{scroll-behavior:smooth}
 <div class="container">
 	<div class="content">
 		<a href="{{ env('APP_BASE_URL') }}/volts/coimbatore"><img class="img-link smaller" src="{{asset('https://currents.nitt.edu/images/coimbatore-round.png')}}"></a>
-		<!-- <a href="{{ env('APP_BASE_URL') }}/volts/bengaluru"><img class="img-link smaller" src="{{asset('images/blore-round.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/volts/kochi"><img class="img-link smaller" src="{{asset('images/kochi-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('https://currents.nitt.edu/images/trichy-round.png')}}"></a>
+		<!-- <a href="{{ env('APP_BASE_URL') }}/volts/kochi"><img class="img-link smaller" src="{{asset('images/kochi-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('images/trichy-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/pondicherry"><img class="img-link smaller" src="{{asset('images/pondicherry-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/madurai"><img class="img-link smaller" src="{{asset('images/madurai-round.png')}}"></a>

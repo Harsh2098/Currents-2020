@@ -37,7 +37,7 @@ Route::get('/events', function () {
 	return view('19.events');
 });
 Route::get('/workshops',function(){
-	return view('19.coming_soon');
+	return view('20.workshops');
 });
 
 Route::get('/contact', function(){
@@ -76,17 +76,17 @@ Route::get('/volts/trichy', function() {
 	$arr = ['city' => 'Trichy',
 			'college' => 'National Institute of Technology',
 			'area' => 'Tiruchirappalli',
-			'date' => '19th January 2019',
+			'date' => '25th January 2020',
 			'venue' => 'NATIONAL INSTITUTE OF TECHNOLOGY<br>
 						TANJORE MAIN ROAD, NH 67,<br>
 						THUVAKKUDI,<br>
 						TRICHY - 620 015, TAMIL NADU, INDIA.<br>',
-			'timings' => '9 AM to 12 PM',
-			'link' => 'https://bit.ly/2sjkOHq',
-			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.682713870967!2d78.81103031422612!3d10.758918092333415!2m3!1f0!2f0!3f0!3m2!1
-i1024!2i768!4f13.1!3m3!1m2!1s0x3baa8d47758e1ae1%3A0xb3e16389eeab05a!2sNational+Institute+of+Technology+Tiruchirappalli!5e0!3m2!1sen!2sin!4v1547021447827',
+			'timings' => '10 AM to 1 PM',
+			'cca' => 'https://currents.nitt.edu/cca',
+			'link' => 'https://forms.gle/yFCFhXNjLkE2HdQn6',
+			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.682713870967!2d78.81103031422612!3d10.758918092333415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa8d47758e1ae1%3A0xb3e16389eeab05a!2sNational+Institute+of+Technology+Tiruchirappalli!5e0!3m2!1sen!2sin!4v1547021447827',
 		];
-	return view('19.gate', $arr);
+	return view('20.gate', $arr);
 });
 Route::get('/volts/tirunelveli', function() {
 	$arr = ['city' => 'Tirunelveli',
@@ -98,7 +98,7 @@ Route::get('/volts/tirunelveli', function() {
 						TIRUNELVELI - 627 007, TAMIL NADU, INDIA.<br>',
 			'timings' => '2 PM to 5 PM',
 			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.0575711294955!2d77.72359231420609!3d8.686075493759216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04126138dab5e1%3A0xc295f682e7eeb40d!2sGovernment+College+Of+Engineering%2C+Tirunelveli!5e0!3m2!1sen!2sin!4v1547021018169',
-			'link' => ' https://bit.ly/2Fk9CBX'
+			'cca' => ' https://bit.ly/2Fk9CBX'
 		];
 	return view('19.gate', $arr);
 });
@@ -175,33 +175,39 @@ Route::get('/volts/pondicherry', function() {
 	return view('19.event_or', $arr);
 });
 
-Route::get('/workshops/gcr', function() {
-	$arr = ['title' => 'GESTURE CONTROLLED ROBOTICS',
-			'bg' => 'gcr.jpg',
+Route::get('/workshops/iot', function() {
+	$arr = ['title' => 'Internet of Things',
+			'bg' => 'iot.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '2,400/- for a Team',
-			'date' => 'FEBRUARY 16th 2019',
+			'date' => 'FEBRUARY 14th 2020',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '9:30 AM to 4:30 PM',
 			'link' => 'https://www.townscript.com/e/gesture-controlled-robotics-currents-nit-trichy',
 			'overview' => '
-				<p>In the age of smart appliances, the everyday life of one and all have begun to change to a simple and more comfortable living. In this age of robotic vacuum cleaners to on-the-move refrigerators, robots have moved into our lives. These robots work on the basis of human interaction, a prominent one being Gesture Control. With a flick of your fingers, these bots arise to do your bidding. CURRENTS’19 presents a comprehensive workshop into this mesmerizing and magical world of Gesture Controlled Robotics starting from understanding the concepts of these robots to its control through hand gestures</p>
+				<p>This one day workshop will be based on IoT in Home Automation using Arduino microcontroller.
+
+				The workshop would be conducted in stages beginning with a simple introductory session to the components used in the workshop followed by a step-wise guide to the successful building of the hardware all the way to interfacing a mobile application to controlling the peripherals with the mobile application. The workshop would give participants an insight into the Arduino microcontroller, implement it in the use of WiFi enabled projects, interfacing a mobile application to communicate with the microcontroller and implement the relays for electrical projects.</p>
 				<strong>Course Content</strong>
-				<ul>
-					<li>Introduction to Robotics </li>
-					<li>Overview of microcontrollers</li>
-					<li>Control of motors using H-bridge</li>
-					<li>USART communication </li>
-					<li>Implementation of digital PID controllers</li>
-					<li>Calibrating accelerometers</li>
-					<li>Fabrication of a differential drive robot</li>
-					<li>Integration of the different modules</li>
-				</ul>
+					<ul>
+						<li>Learn about the embedded system features of Arduino</li>
+						<li>Data acquisition from Arduino over WiFi</li>
+						<li>Communicating with Arduino from a mobile application for a GUI enabled user interface</li>
+						<li>Controlling peripherals connected to Arduino from the mobile application</li>
+					</ul>
+			
+					<strong>Participants would be able to</strong>
+					<ul>
+						<li>Utilize Arduino for embedded system projects</li>
+						<li>Utilize Arduino launchpad for WiFi enabled projects</li>
+						<li>Interface a mobile application which suits their need for communicationwith a microcontroller</li>
+						<li>Implement relays in electrical projects</li>
+					</ul>
 				',
 			'contact' => '
-				<p>Ananda Rangan<br>+91 94877 30712<p>
-				<p>Bhavya<br>+91 94006 14389</p>',
+				<p>Avinash<br>+91 97903 20049<p>
+				<p>Yash<br>+91 99931 67207</p>',
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'A Team can consist of maximum 3 members.',
@@ -217,11 +223,11 @@ Route::get('/workshops/pcb', function() {
 			'bg' => 'pcb.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '350/- per head',
-			'date' => '<br>FEBRUARY 14th 2019, <br> FEBRUARY 16th 2019',
+			'date' => '<br>FEBRUARY 13th 2020, <br> FEBRUARY 14th 2020',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
-			'timings' => '<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 14th 2019<br>
-						  Slot 2 : 05:00 PM - 08:00 PM - FEBRUARY 16th 2019',
+			'timings' => '<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 13th 2020<br>
+						  Slot 2 : 05:00 PM - 08:00 PM - FEBRUARY 14th 2020',
 			'link' => 'https://www.townscript.com/e/pcb-design-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
@@ -236,7 +242,7 @@ Route::get('/workshops/pcb', function() {
 				<p>Needless to say, PCB design is an indispensable skill for an engineer working on
 				any project.</p>
 					
-				<p>CURRENTS’19 presents the workshop on PCB design, a comprehensive workshop 
+				<p>CURRENTS’20 presents the workshop on PCB design, a comprehensive workshop 
 				covering topics right from designing a schematic to getting the PCB layout 
 				printed from a manufacturer</p>
 
@@ -252,8 +258,8 @@ Route::get('/workshops/pcb', function() {
 
 				',
 			'contact' => '
-				<p>Laxman<br>+91 94872 25817</p>
-				<p>Nithin<br>+91 99401 58850</p>',
+				<p>Avinash<br>+91 97903 20049</p>
+				<p>Jinesh<br>+91 94864 61891</p>',
 			'color' => 'white',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
@@ -264,35 +270,31 @@ Route::get('/workshops/pcb', function() {
 	return view('19.workshop', $arr);
 });
 
-Route::get('/workshops/python', function() {
-	$arr = ['title' => 'PYTHON',
-			'bg' => 'python.jpg',
+Route::get('/workshops/verilog', function() {
+	$arr = ['title' => 'Digital Design using Verilog',
+			'bg' => 'verilog.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '350/- per head',
-			'date' => 'FEBRUARY 14th &<br> FEBRUARY 16th 2019',
+			'date' => 'FEBRUARY 13th 2020 &<br> FEBRUARY 15th 2020',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
-			'timings' => '<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 14th 2019<br>
-						  Slot 2 : 05:00 PM - 08:00 PM - FEBRUARY 16th 2019',
+			'timings' => '<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 13th 2020<br>
+						  Slot 2 : 05:00 PM - 08:00 PM - FEBRUARY 15th 2020',
 			'link' => 'https://www.townscript.com/e/python-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
 				Soaring high above all other object-oriented programming language due to its elegant code syntax, it’s not surprising for Python to be preferred by tech giants such as Google, YouTube and Quora. With a plethora of open source libraries available for applications in data analysis and web development to name a few, python is versatile to meet the requirements of any coder. CURRENTS’19 presents its workshop to cover basics of programming in Python to kick start your venture into the amazing world of popular coding.</p>
 				<strong>Course Content</strong>
 				<ul>
-				<li>Introduction to Python</li>
-				<li>Basic Data types</li>
-				<li>Control Flow</li>
-				<li>Core Data structures</li>
-				<li>Functions</li>
-				<li>Classes and Objects</li>
-				<li>Module structuring</li>
-				<li>File handling </li>
+				<li>Introduction to digital electronics and circuits.</li>
+				<li>Features of Hardware Description Languages and programming paradigms.</li>
+				<li>Introduction to Verilog HDL programming – syntax, operators and common blocks.</li>
+				<li>Implementing Verilog programs and simulations on ModelSim HDL simulator.</li>
 				</ul>
 				',
 			'contact' => '
-				<p>Harinaath Gobi<br>+91 82201 08895</p>
-				<p>Vivek<br>+91 96001 33170</p>',
+				<p>Deepak<br>+91 88707 11551<p>
+				<p>Mohit<br>+91 82716 03410</p>',
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'This is an individual workshop.',
@@ -307,8 +309,8 @@ Route::get('/workshops/ar', function() {
 	$arr = ['title' => 'AUGMENTED REALITY',
 			'bg' => 'ar.jpg',
 			'duration' => '6 HOURS',
-			'cost' => '400/- per head',
-			'date' => 'FEBRUARY 17th 2019',
+			'cost' => '450/- per head',
+			'date' => 'FEBRUARY 16th 2020',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
 			'timings' => '09:30 AM - 4:30 PM',
@@ -333,8 +335,8 @@ However, the real flare for the innovation began with Niantic’s launch of Pok�
 				</ul>
 ',
 			'contact' => '
-				<p>Nithin<br>+91 99401 58850</p>
-				<p>Vivek<br>+91 96001 33170</p>',
+				<p>Ruphan<br>+91 90802 28669</p>
+				<p>Aditya<br>+91 94701 86194</p>',
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'This is an individual workshop.',
@@ -350,12 +352,12 @@ Route::get('/workshops/ip', function() {
 			'bg' => 'ip.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '400/- per head',
-			'date' => '<br>15th FEBRUARY 2019, <br> 17th FEBRUARY 2019',
+			'date' => '<br>14th FEBRUARY 2020, <br> 16th FEBRUARY 2020',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
 			'timings' => '
-<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 15th 2019<br>
-Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 17th 2019<br>',
+<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 14th 2020<br>
+Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 16th 2020<br>',
 			'link' => 'https://www.townscript.com/e/image-processing-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
@@ -371,8 +373,8 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 17th 2019<br>',
 				</ul>
 				',
 			'contact' => '
-				<p>Harinaath Gobi<br>+91 82201 08895</p>
-				<p>Vivek<br>+91 96001 33170</p>',
+				<p>Ruphan<br>+91 90802 28669</p>
+				<p>Raj<br>+91 99730 48519</p>',
 			'color' => 'black',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
@@ -383,15 +385,15 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 17th 2019<br>',
 	return view('19.workshop', $arr);
 });
 
-Route::get('/workshops/embedded',function(){
-	$arr = ['title' => 'EMBEDDED SYSTEMS',
-			'bg' => 'es.jpg',
-			'duration' => '15 HOURS',
+Route::get('/workshops/ml',function(){
+	$arr = ['title' => 'Machine Learning',
+			'bg' => 'ml.jpg',
+			'duration' => '3 HOURS',
 			'cost' => '2100/- for a Team',
-			'date' => '<br>16th FEBRUARY 2019, <br> 17th FEBRUARY 2019',
+			'date' => '<br>14th FEBRUARY 2020',
 			'venue' => 'Orion NIT Trichy',
-			'team_max' => 'A Team can consist of maximum 3 members.',
-			'timings' => '09:30 AM - 04:30 PM<br>',
+			'team_max' => 'This is an individual workshop.',
+			'timings' => '01:30 PM - 04:30 PM<br>',
 			'link' => 'https://www.townscript.com/e/embedded-systems-currents-nit-trichy',
 			'overview' => '
 				<p>Internet of Things is becoming ubiquitous with edge sensor nodes getting more and 
@@ -425,8 +427,8 @@ Route::get('/workshops/embedded',function(){
 				</ul>
 					',
 			'contact' => '
-				<p>Laxman<br>+91 94872 25817</p>
-				<p>Vijay<br>+91 73589 55699</p>',
+				<p>Joel<br>+91 95005 90527</p>
+				<p>Dharun<br>+91 85550 55334</p>',
 			'color' => 'black',
 			'talign' => 'left',
 			'team_spec' => 'A Team can consist of three members.',
@@ -460,8 +462,8 @@ Route::get('/workshops/renewable', function() {
 				</ul>
 				',
 			'contact' => '
-				<p>Laxman<br>+91 94872 25817</p>
-				<p>Aishwarya<br>+91 94872 60290</p>',
+				<p>Joel<br>+91 95005 90527</p>
+				<p>Diya<br>+91 97915 05255</p>',
 			'color' => 'black',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
@@ -471,12 +473,12 @@ Route::get('/workshops/renewable', function() {
 	return view('19.workshop', $arr);
 });
 
-Route::get('/workshops/touchpad', function() {
-	$arr = ['title' => 'TOUCHPAD',
-			'bg' => 'touchpad.jpg',
+Route::get('/workshops/embedded_game_dev', function() {
+	$arr = ['title' => 'Embedded Game Development',
+			'bg' => 'embedded_game_dev.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '2,400/- for a Team',
-			'date' => '15th FEBRUARY 2019',
+			'date' => '15th FEBRUARY 2020',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'A Team of maximum 3 members.',
 			'timings' => '09:30 AM - 04:30 PM<br>',
@@ -487,19 +489,16 @@ Route::get('/workshops/touchpad', function() {
 
 				<strong>Course Content</strong>
 				<ul>
-				<li>Overview of microcontrollers</li>
-				<li>Basics of Arduino programming</li>
-				<li>Basics of GPIO pins </li>
-				<li>Basics of serial communication</li>
-				<li>Interfacing modules to the microcontroller</li>
-				<li>Working of touchpads </li>
-				<li>Displaying real-time input on Arduino Plotter</li>
+				<li>Embedded Systems concepts</li>
+				<li>Introduction to the Arduino microcontroller and its programming</li>
+				<li>Programming LED matrix using MAX7219 driver</li>
+				<li>Creating an interactive snake game on the LED matrix</li>
 				</ul>
 
 				',
 			'contact' => '
-				<p>Ananda Rangan<br>+91 94877 30712<p>
-				<p>Amritha<br>+91 75500 00647</p>',
+				<p>Deepak<br>+91 88707 11551<p>
+				<p>Jinesh<br>+91 94864 61891</p>',
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'A team of maximum 3 members.',
