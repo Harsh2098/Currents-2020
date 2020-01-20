@@ -4,7 +4,7 @@ var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- <script type="text/javascript" src="{{asset('js/eureka_script.js')}}"></script> -->
-<script type="text/javascript" src="{{asset('js/eureka_script.js')}}"></script>
+<script type="text/javascript" src="{{asset('https://currents.nitt.edu/js/eureka_script.js')}}"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 * {

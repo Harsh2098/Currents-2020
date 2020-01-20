@@ -17,7 +17,7 @@ body {
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background: url("{{ asset('images/event-or-bg.jpg') }}");
+	background: url("{{ asset('https://currents.nitt.edu/images/event-or-bg.jpg') }}");
 	background-size: cover;
 	background-position: 50% 0%;
 }
@@ -107,15 +107,15 @@ html{scroll-behavior:smooth}
 	}
 }
 </style>
-<a href="https://www.facebook.com/currentsnitt"><img class="logo left" src="{{asset('images/logo-bw.png')}}"></a>
+<a href="https://www.facebook.com/currentsnitt"><img class="logo left" src="{{asset('https://currents.nitt.edu/images/logo-bw.png')}}"></a>
 <div class="wrapper">
 	<div class="title">
-		<img class="logo" src="{{asset('images/volts_logo-bw.png')}}">
+		<img class="logo" src="{{asset('https://currents.nitt.edu/images/volts_logo-bw.png')}}">
 	</div>
 </div>
 <div class="container">
 	<div class="content">
-		<a href="{{ env('APP_BASE_URL') }}/volts/coimbatore"><img class="img-link smaller" src="{{asset('images/coimbatore-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/coimbatore"><img class="img-link smaller" src="{{asset('https://currents.nitt.edu/images/coimbatore-round.png')}}"></a>
 		<!-- <a href="{{ env('APP_BASE_URL') }}/volts/bengaluru"><img class="img-link smaller" src="{{asset('images/blore-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/kochi"><img class="img-link smaller" src="{{asset('images/kochi-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('images/trichy-round.png')}}"></a>
