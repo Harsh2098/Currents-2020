@@ -209,7 +209,7 @@ Route::get('/workshops/iot', function() {
 				<p>Avinash<br>+91 97903 20049<p>
 				<p>Yash<br>+91 99931 67207</p>',
 			'color' => 'white',
-			'talign' => 'left',
+			'talign' => 'right',
 			'team_spec' => 'A Team can consist of maximum 3 members.',
 			'prereq' => true,
 			'slots' => false
@@ -261,7 +261,7 @@ Route::get('/workshops/pcb', function() {
 				<p>Avinash<br>+91 97903 20049</p>
 				<p>Jinesh<br>+91 94864 61891</p>',
 			'color' => 'white',
-			'talign' => 'right',
+			'talign' => 'left',
 			'team_spec' => 'This is an individual workshop.',
 			'prereq' => false,
 			'slots' => true
@@ -296,7 +296,7 @@ Route::get('/workshops/verilog', function() {
 				<p>Deepak<br>+91 88707 11551<p>
 				<p>Mohit<br>+91 82716 03410</p>',
 			'color' => 'white',
-			'talign' => 'left',
+			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
 			'prereq' => false,
 			'slots' => true
@@ -375,7 +375,7 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 16th 2020<br>',
 			'contact' => '
 				<p>Ruphan<br>+91 90802 28669</p>
 				<p>Raj<br>+91 99730 48519</p>',
-			'color' => 'black',
+			'color' => 'white',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
 			'prereq' => false,
@@ -429,7 +429,7 @@ Route::get('/workshops/ml',function(){
 			'contact' => '
 				<p>Joel<br>+91 95005 90527</p>
 				<p>Dharun<br>+91 85550 55334</p>',
-			'color' => 'black',
+			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'A Team can consist of three members.',
 			'prereq' => false,
@@ -500,7 +500,7 @@ Route::get('/workshops/embedded_game_dev', function() {
 				<p>Deepak<br>+91 88707 11551<p>
 				<p>Jinesh<br>+91 94864 61891</p>',
 			'color' => 'white',
-			'talign' => 'left',
+			'talign' => 'right',
 			'team_spec' => 'A team of maximum 3 members.',
 			'prereq' => true,
 			'slots' => false
