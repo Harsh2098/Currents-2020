@@ -200,7 +200,7 @@ Route::get('/workshops/iot', function() {
 					<ul>
 						<li>Utilize Arduino for embedded system projects</li>
 						<li>Utilize Arduino launchpad for WiFi enabled projects</li>
-						<li>Interface a mobile application which suits their need for communicationwith a microcontroller</li>
+						<li>Interface a mobile application to communicate with a microcontroller</li>
 						<li>Implement relays in electrical projects</li>
 					</ul>
 				',
@@ -325,7 +325,7 @@ However, the real flare for the innovation began with Nianticâ€™s launch of PokÃ
 					<li>Basics of Augmented Reality </li>
 					<li>Introduction to OpenCV module on Python</li>
 					<li>Transformations and Coordinate systems</li>
-					<li>Introduction to AuRuco markers</li>
+					<li>Introduction to ArUco markers</li>
 				</ul>
 ',
 			'contact' => '
@@ -382,7 +382,7 @@ Route::get('/workshops/ml',function(){
 			'bg' => 'ML.jpg',
 			'duration' => '3 HOURS',
 			'cost' => 'INR 350/- per head',
-			'date' => '<br>14th FEBRUARY 2020',
+			'date' => '14th FEBRUARY 2020',
 			'venue' => 'Orion NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
 			'timings' => '01:30 PM - 04:30 PM<br>',

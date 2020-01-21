@@ -189,10 +189,10 @@ html {
 					@endif
 					<li>DATE: {!! $date !!}</li>
 					@if($title == 'Internet of Things' || $title == 'Augmented Reality' || $title == 'Machine Learning' || $title == 'RENEWABLE ENERGY SYSTEMS' || $title == 'Embedded Game Development')
-						<li>DURATION: {{ $duration }} </li>
+						<li>TIMINGS: {!! $timings !!}</li>
 					@endif
+					<li>DURATION: {{ $duration }} </li>
 					<li>VENUE: {{ $venue }}	</li>
-					<li>TIMINGS: {!! $timings !!}</li>
 					<li>COST OF WORKSHOP: INR {{ $cost }}</li>
 					<li>{{ $team_max }}</li>
 					<li><strong>Limited number of seats</strong></li>
