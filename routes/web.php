@@ -177,7 +177,7 @@ Route::get('/volts/pondicherry', function() {
 
 Route::get('/workshops/iot', function() {
 	$arr = ['title' => 'Internet of Things',
-			'bg' => 'iot.jpg',
+			'bg' => 'IOT.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '2,400/- for a Team',
 			'date' => 'FEBRUARY 14th 2020',
@@ -214,13 +214,13 @@ Route::get('/workshops/iot', function() {
 			'prereq' => true,
 			'slots' => false
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 
 Route::get('/workshops/pcb', function() {
 	$arr = ['title' => 'PCB DESIGN',
-			'bg' => 'pcb.jpg',
+			'bg' => 'PCB.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '350/- per head',
 			'date' => '<br>FEBRUARY 13th 2020, <br> FEBRUARY 14th 2020',
@@ -267,12 +267,12 @@ Route::get('/workshops/pcb', function() {
 			'slots' => true
 
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 Route::get('/workshops/verilog', function() {
 	$arr = ['title' => 'Digital Design using Verilog',
-			'bg' => 'verilog.jpg',
+			'bg' => 'Verilog.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '350/- per head',
 			'date' => 'FEBRUARY 13th 2020 &<br> FEBRUARY 15th 2020',
@@ -302,12 +302,12 @@ Route::get('/workshops/verilog', function() {
 			'slots' => true
 
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 Route::get('/workshops/ar', function() {
 	$arr = ['title' => 'AUGMENTED REALITY',
-			'bg' => 'ar.jpg',
+			'bg' => 'AR.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '450/- per head',
 			'date' => 'FEBRUARY 16th 2020',
@@ -344,7 +344,7 @@ However, the real flare for the innovation began with Nianticâ€™s launch of PokÃ
 			'slots' => false
 
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 Route::get('/workshops/ip', function() {
@@ -382,12 +382,12 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 16th 2020<br>',
 			'slots' => true
 
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 Route::get('/workshops/ml',function(){
 	$arr = ['title' => 'Machine Learning',
-			'bg' => 'ml.jpg',
+			'bg' => 'ML.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '2100/- for a Team',
 			'date' => '<br>14th FEBRUARY 2020',
@@ -435,12 +435,12 @@ Route::get('/workshops/ml',function(){
 			'prereq' => false,
 			'slots' => false
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 Route::get('/workshops/renewable', function() {
 	$arr = ['title' => 'RENEWABLE ENERGY SYSTEMS',
-			'bg' => 're.jpg',
+			'bg' => 'renewable_energy_systems.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '400/- per head',
 			'date' => ' 16th FEBRUARY 2019',
@@ -470,12 +470,12 @@ Route::get('/workshops/renewable', function() {
 			'prereq' => false,
 			'slots' => false
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 Route::get('/workshops/embedded_game_dev', function() {
 	$arr = ['title' => 'Embedded Game Development',
-			'bg' => 'embedded_game_dev.jpg',
+			'bg' => 'game.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '2,400/- for a Team',
 			'date' => '15th FEBRUARY 2020',
@@ -506,7 +506,7 @@ Route::get('/workshops/embedded_game_dev', function() {
 			'slots' => false
 
 		];
-	return view('19.workshop', $arr);
+	return view('20.workshop', $arr);
 });
 
 Route::get('/eureka/register', function() {

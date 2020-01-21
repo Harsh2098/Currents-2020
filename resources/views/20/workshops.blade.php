@@ -8,17 +8,17 @@
 @endsection
 @section('content')
 <section class="main_page_str">
-	<br><br>
 	<div class="title">Workshops</div>
 	<div class="content">
-		<a href="{{ env('APP_BASE_URL') }}/workshops/embedded_game_dev"><img class="img-link" src="{{asset('images/touchpad.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/ar"><img class="img-link" src="{{asset('images/augmented_reality.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/iot"><img class="img-link" src="{{asset('images/gcr.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/ip"><img class="img-link" src="{{asset('images/image_processing.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/pcb"><img class="img-link" src="{{asset('images/pcb.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/verilog"><img class="img-link" src="{{asset('images/python.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/renewable"><img class="img-link" src="{{asset('images/renewable_energy.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/ml"><img class="img-link" style="filter: grayscale(70%);" src="{{asset('images/workshop_ml_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/embedded_game_dev"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_game_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/ar"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_ar_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/iot"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_iot_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/ip"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_ip_20.png')}}"></a>
+		<br>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/pcb"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_pcb_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/verilog"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_verilog_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/renewable"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_renewable_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/ml"><img class="img-link" style="filter: grayscale(70%);" src="{{asset('https://currents.nitt.edu/images/workshop_ml_20.png')}}"></a>
 
 	</div>
 	<br><br>
@@ -48,7 +48,7 @@
 			</ul>
 		</ul>
 		<br><br>
-		<h1>Venue Partners of CURRENTS'19</h1>
+		<h1>Venue Partners of CURRENTS '20</h1>
 		<ul>
 			<li>Mangayarkarasi College of Engineering, Madurai</li>
 			<li>Government College of Engineering, Tirunelveli</li>
