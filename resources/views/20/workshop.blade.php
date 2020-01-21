@@ -167,7 +167,7 @@ html {
 				<li style="float: right"><a href="#rules">Rules</a></li>
 				<li style="float: right"><a href="#details">Details</a></li>
 				<li style="float: right"><a href="#overview">Overview</a></li>
-				<li><a href="https://www.facebook.com/currentsnitt" style="float: left;padding: 0; height: 100%; margin-left: 1%;"><img src="{{asset('images/logo-bw.png')}}"></a></li>
+				<li><a href="https://www.facebook.com/currentsnitt" style="float: left;padding: 0; height: 100%; margin-left: 1%;"><img src="{{asset('https://currents.nitt.edu/images/logo-bw.png')}}"></a></li>
 			</ul>
 		</nav>
 		<div>&nbsp;</div>

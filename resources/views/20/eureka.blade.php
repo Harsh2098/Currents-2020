@@ -22,7 +22,7 @@ body {
 	color: black;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background: url("{{ asset('images/eureka-bg-cg.jpeg') }}") no-repeat;
+	background: url("{{ asset('https://currents.nitt.edu/images/eureka-bg-cg.jpeg') }}") no-repeat;
 	background-position: 0% -4%;
 	background-color: #5deaff;
 	background-size: 100%;
@@ -166,7 +166,7 @@ html {
 				<li style="float: right"><a href="#impt_dates">Important Dates</a></li>
 				<li style="float: right"><a href="#themes">Themes</a></li>
 				<li style="float: right"><a href="#about">About</a></li>
-				<li><a style="padding: 0; height: 100%"><img src="{{asset('images/logo-bw.png')}}"></a></li>
+				<li><a style="padding: 0; height: 100%"><img src="{{asset('https://currents.nitt.edu/images/logo-bw.png')}}"></a></li>
 			</ul>
 		</nav>
 		<div>&nbsp;</div>

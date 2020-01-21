@@ -25,7 +25,7 @@ font-weight:300;
 font-size: 12px;
 line-height:30px;
 color:#777;
-background: url("{{ asset('images/eureka-bg-cg.jpeg') }}") no-repeat;
+background: url("{{ asset('https://currents.nitt.edu/images/eureka-bg-cg.jpeg') }}") no-repeat;
 background-color: cyan;
 background-size: 100%;
 }
