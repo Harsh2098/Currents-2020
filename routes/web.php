@@ -183,7 +183,7 @@ Route::get('/workshops/iot', function() {
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '9:30 AM to 4:30 PM',
-			'link' => 'https://www.townscript.com/e/gesture-controlled-robotics-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
 				<p>This one day workshop will be based on IoT in Home Automation using Arduino microcontroller.
 
@@ -227,7 +227,7 @@ Route::get('/workshops/pcb', function() {
 			'team_max' => 'This is an individual workshop.',
 			'slot_info' => 'Participants are required to attend ONLY ONE of the slots to complete the workshop. Both the sessions are identical in content.',
 			'timings' => '<br>FEBRUARY 13th 2020 (05:00 PM - 08:00 PM) <br> FEBRUARY 14th 2020 (05:00 PM - 08:00 PM)',
-			'link' => 'https://www.townscript.com/e/pcb-design-workshop-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
 				<p>
 				Great innovations always start from a simple schematic and then move ahead to
@@ -279,10 +279,10 @@ Route::get('/workshops/verilog', function() {
 			'team_max' => 'This is an individual workshop.',
 			'slot_info' => 'Participants are required to attend ONLY ONE of the slots to complete the workshop. Both the sessions are identical in content.',
 			'timings' => '<br>FEBRUARY 13th 2020 (05:00 PM - 08:00 PM) <br> FEBRUARY 15th 2020 (05:00 PM - 08:00 PM)',
-			'link' => 'https://www.townscript.com/e/python-workshop-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
 				<p>
-				Soaring high above all other object-oriented programming language due to its elegant code syntax, it’s not surprising for Python to be preferred by tech giants such as Google, YouTube and Quora. With a plethora of open source libraries available for applications in data analysis and web development to name a few, python is versatile to meet the requirements of any coder. CURRENTS’19 presents its workshop to cover basics of programming in Python to kick start your venture into the amazing world of popular coding.</p>
+				To all electronics enthusiasts out there with a flair for circuits and a simulation -- now is your opportunity to try your hand at some electronic modelling of your own! CURRENTS`20 presents a Verilog workshop, an interactive session where you will get to learn to program hardware components and circuits in a simple code-based format. Be sure to make the most of this exciting opportunity by signing up. </p> 
 				<strong>Course Content</strong>
 				<ul>
 				<li>Introduction to digital electronics and circuits.</li>
@@ -313,7 +313,7 @@ Route::get('/workshops/ar', function() {
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
 			'timings' => '09:30 AM - 4:30 PM',
-			'link' => 'https://www.townscript.com/e/augmented-reality-workshop-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
 				<p>
 				Augmented reality made its debut with Google glasses back in 2013.</p>
@@ -322,7 +322,7 @@ However, the real flare for the innovation began with Niantic’s launch of Pok�
 
 				<strong>Course Content</strong>
 				<ul>
-					<li>Basics of Augemented Reality </li>
+					<li>Basics of Augmented Reality </li>
 					<li>Introduction to OpenCV module on Python</li>
 					<li>Transformations and Coordinate systems</li>
 					<li>Introduction to AuRuco markers</li>
@@ -351,7 +351,7 @@ Route::get('/workshops/ip', function() {
 			'team_max' => 'This is an individual workshop.',
 			'slot_info' => 'Participants are required to attend ONLY ONE of the slots to complete the workshop. Both the sessions are identical in content.',
 			'timings' => '<br>14th FEBRUARY 2020 (05:00 PM - 08:00 PM)<br> 16th FEBRUARY 2020 (01:30 PM - 04:30 PM)',
-			'link' => 'https://www.townscript.com/e/image-processing-workshop-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
 				<p>
 				In the age of creative Instagram filters and safety features using facial recognition, signal processing dealing with the manipulation of 2 dimensional digital images has become one of the current trendy technologies. CURRENTS’20 presents the startup pack to the world of Image Processing through the Python programming language. The workshop will cover all that’s needed to code and implement your very own image processing application for human interaction with your device.</p>
@@ -381,41 +381,20 @@ Route::get('/workshops/ml',function(){
 	$arr = ['title' => 'Machine Learning',
 			'bg' => 'ML.jpg',
 			'duration' => '3 HOURS',
-			'cost' => '2100/- for a Team',
+			'cost' => 'INR 350/- per head',
 			'date' => '<br>14th FEBRUARY 2020',
 			'venue' => 'Orion NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
 			'timings' => '01:30 PM - 04:30 PM<br>',
-			'link' => 'https://www.townscript.com/e/embedded-systems-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
-				<p>Internet of Things is becoming ubiquitous with edge sensor nodes getting more and 
-				more intelligent, capable to transmit information directly to a cloud and get 
-				controlled/actuated from the cloud.</p>
-				
-				<p>This hands-on workshop covers the architecture of TI CC3200, which is a wireless 
-				micro controller and first in the industry to evolve into a single microcontroller 
-				programmable to wireless connectivity(Wi-Fi). </p>
-				<p>The workshop is tailored to meet the need of engineering students to get very good 
-				exposure to internet enabled systems and their applications.</p>
-
-				<p>Each team should have at least one laptop.</p>
-
-				Laptop requirements : <br>
-					1. OS with Windows 7 and above <br>
-					2. Minimum 1GB RAM <br>
-					3.Minimum disk space of 2GB(4GB recommended). <br>
-					4.Smart Phone with a data pack. <br><br>
-
+				<p>Machine learning is a specific subset of AI that trains a machine on how to learn from dataset. Since 2012, the explosive growth in machine learning has been almost entirely driven by neural network models that allowed us to perform image classification, speech recognition and even self-driving cars. In this edition of Currents, we give you the opportunity to gain an insight into Machine Learning and its intricacies. Register now and realise the potential of Machine Learning! </p>
 				<strong>Course Content</strong>
 				<ul>
-					<li>Introduction to Embedded C</li>
-					<li>Embedded C constructs and Data Formats</li>
-					<li>Overview of Embedded systems </li>
-					<li>General input and output </li>
-					<li>Mapping microcontroller’s architecture to Embedded C </li>
-					<li>Interrupts, Timers and serial communication </li>
-					<li>PWM using timers</li>
-					<li>Serial Peripheral Interface</li>
+					<li>Introduction to Machine Learning</li>
+					<li>Types of machine learning - supervised and unsupervised </li>
+					<li>Linear regression - single-variable and multivariate </li>
+					<li>Programming and evaluating a linear regression model </li>
 				</ul>
 					',
 			'contact' => '
@@ -439,7 +418,7 @@ Route::get('/workshops/renewable', function() {
 			'venue' => 'Orion NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
 			'timings' => '09:30 AM - 04:30 PM<br>',
-			'link' => 'https://www.townscript.com/e/renewable-energy-systems-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
 				<p>Dwindling coal reserves coupled with the rising awareness about pollution, the shift in interest towards renewable energy was inevitable. In the crude oil industry, the Indian Government has declared that initiatives have been taken to change one-third of the diesel and petrol vehicles to electric by 2030. These developments point towards a promising change for a clean and green Earth in the future. To equip you, the future citizens of the country for this shift, we at CURRENTS’20 present to you a starter pack to kickstart your adventure in the world of renewable energy</p>
 
@@ -473,9 +452,9 @@ Route::get('/workshops/embedded_game_dev', function() {
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'A Team of maximum 3 members.',
 			'timings' => '09:30 AM - 04:30 PM<br>',
-			'link' => 'https://www.townscript.com/e/touch-pad-workshop-currents-nit-trichy',
+			'link' => 'https://www.thecollegefever.com/events/currents20',
 			'overview' => '
-				<p>To be updated daw!!</p>
+				<p>Embedded systems have become the bread and butter of electronics professionals. However, people tend to forget about the fun you can have with microcontrollers and the creative freedom it can give to the user. Get ready to have fun while learning about embedded systems and remaking the classic Snake game and relive the days of past.</p>
 
 				<strong>Course Content</strong>
 				<ul>

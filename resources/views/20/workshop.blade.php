@@ -184,15 +184,17 @@ html {
 			<section id="details">
 				<h1>Details</h1>
 				<ul style="display: inline-block;">
+					@if($title == 'IMAGE PROCESSING' || $title == 'PCB DESIGN' || $title == 'Digital Design using Verilog')
+						<li><strong>{{ $slot_info }}</strong></li>
+					@endif
 					<li>DATE: {!! $date !!}</li>
-					<li>DURATION: {{ $duration }} </li>
+					@if($title == 'Internet of Things' || $title == 'Augmented Reality' || $title == 'Machine Learning' || $title == 'RENEWABLE ENERGY SYSTEMS' || $title == 'Embedded Game Development')
+						<li>DURATION: {{ $duration }} </li>
+					@endif
 					<li>VENUE: {{ $venue }}	</li>
 					<li>TIMINGS: {!! $timings !!}</li>
 					<li>COST OF WORKSHOP: INR {{ $cost }}</li>
 					<li>{{ $team_max }}</li>
-					@if($title == 'IMAGE PROCESSING' || $title == 'PCB DESIGN' || $title == 'Digital Design using Verilog')
-						<li><strong>{{ $slot_info }}</strong></li>
-					@endif
 					<li><strong>Limited number of seats</strong></li>
 				</ul>
 			</section>
