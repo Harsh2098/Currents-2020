@@ -190,8 +190,8 @@ html {
 					<li>TIMINGS: {!! $timings !!}</li>
 					<li>COST OF WORKSHOP: INR {{ $cost }}</li>
 					<li>{{ $team_max }}</li>
-					@if($slots == true)
-					<li><strong>Attending one slot is necessary to complete the workshop.</strong></li>
+					@if($title == 'IMAGE PROCESSING' || $title == 'PCB DESIGN' || $title == 'Digital Design using Verilog')
+						<li><strong>{{ $slot_info }}</strong></li>
 					@endif
 					<li><strong>Limited number of seats</strong></li>
 				</ul>
@@ -210,12 +210,12 @@ html {
 					@if($prereq == true)
 					<li>
 						PREREQUISITES:<br>
-						Each team should bring one laptop with Windows 8 OS or above.
+						It is recommended to bring a laptop with Windows (8/10) to the workshop.
 					</li>
 					@endif
 					<li>
 						CERTIFICATE:<br>
-						Participants should be present in all the sessions of the workshop. Failing this no certificate will be awarded to the participant.
+						Participants should be present throughout the workshop. Failing this no certificate will be awarded to the participant.
 					</li>
 				</ul>
 			</section>

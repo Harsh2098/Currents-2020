@@ -222,11 +222,11 @@ Route::get('/workshops/pcb', function() {
 			'bg' => 'PCB.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '350/- per head',
-			'date' => '<br>FEBRUARY 13th 2020, <br> FEBRUARY 14th 2020',
+			'date' => '<br>FEBRUARY 13th 2020 (05:00 PM - 08:00 PM) <br> FEBRUARY 14th 2020 (05:00 PM - 08:00 PM)',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
-			'timings' => '<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 13th 2020<br>
-						  Slot 2 : 05:00 PM - 08:00 PM - FEBRUARY 14th 2020',
+			'slot_info' => 'Participants are required to attend ONLY ONE of the slots to complete the workshop. Both the sessions are identical in content.',
+			'timings' => '<br>FEBRUARY 13th 2020 (05:00 PM - 08:00 PM) <br> FEBRUARY 14th 2020 (05:00 PM - 08:00 PM)',
 			'link' => 'https://www.townscript.com/e/pcb-design-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
@@ -262,7 +262,7 @@ Route::get('/workshops/pcb', function() {
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false,
+			'prereq' => true,
 			'slots' => true
 
 		];
@@ -274,11 +274,11 @@ Route::get('/workshops/verilog', function() {
 			'bg' => 'Verilog.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '350/- per head',
-			'date' => 'FEBRUARY 13th 2020 &<br> FEBRUARY 15th 2020',
+			'date' => '<br>FEBRUARY 13th 2020 (05:00 PM - 08:00 PM) <br> FEBRUARY 15th 2020 (05:00 PM - 08:00 PM)',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
-			'timings' => '<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 13th 2020<br>
-						  Slot 2 : 05:00 PM - 08:00 PM - FEBRUARY 15th 2020',
+			'slot_info' => 'Participants are required to attend ONLY ONE of the slots to complete the workshop. Both the sessions are identical in content.',
+			'timings' => '<br>FEBRUARY 13th 2020 (05:00 PM - 08:00 PM) <br> FEBRUARY 15th 2020 (05:00 PM - 08:00 PM)',
 			'link' => 'https://www.townscript.com/e/python-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
@@ -293,11 +293,11 @@ Route::get('/workshops/verilog', function() {
 				',
 			'contact' => '
 				<p>Deepak<br>+91 88707 11551<p>
-				<p>Mohit<br>+91 82716 03410</p>',
+				<p>Mohit<br>+91 88253 83700</p>',
 			'color' => 'white',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false,
+			'prereq' => true,
 			'slots' => true
 
 		];
@@ -305,7 +305,7 @@ Route::get('/workshops/verilog', function() {
 });
 
 Route::get('/workshops/ar', function() {
-	$arr = ['title' => 'AUGMENTED REALITY',
+	$arr = ['title' => 'Augmented Reality',
 			'bg' => 'AR.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '450/- per head',
@@ -318,19 +318,14 @@ Route::get('/workshops/ar', function() {
 				<p>
 				Augmented reality made its debut with Google glasses back in 2013.</p>
 <p>
-However, the real flare for the innovation began with Niantic’s launch of Pokémon GO that captivated the hearts of young and old in 2016. The interactive gameplay soared above others due to its application of augmented reality enlivening the reality we live in. For those fascinated by this technology, CURRENTS’19 presents a workshop on implementing augmented reality through OpenGL.</p>
+However, the real flare for the innovation began with Niantic’s launch of Pokémon GO that captivated the hearts of young and old in 2016. The interactive gameplay soared above others due to its application of augmented reality enlivening the reality we live in. For those fascinated by this technology, CURRENTS’20 presents a workshop on implementing augmented reality through OpenCV.</p>
 
 				<strong>Course Content</strong>
 				<ul>
 					<li>Basics of Augemented Reality </li>
-					<li>Introduction to OpenGL module on Python</li>
+					<li>Introduction to OpenCV module on Python</li>
 					<li>Transformations and Coordinate systems</li>
 					<li>Introduction to AuRuco markers</li>
-					<li>Model Loading </li>
-					<li>Implementation of AR</li>
-
-
-
 				</ul>
 ',
 			'contact' => '
@@ -339,7 +334,7 @@ However, the real flare for the innovation began with Niantic’s launch of Pok�
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false,
+			'prereq' => true,
 			'slots' => false
 
 		];
@@ -351,16 +346,15 @@ Route::get('/workshops/ip', function() {
 			'bg' => 'ip.jpg',
 			'duration' => '3 HOURS',
 			'cost' => '400/- per head',
-			'date' => '<br>14th FEBRUARY 2020, <br> 16th FEBRUARY 2020',
+			'date' => '<br>14th FEBRUARY 2020 (05:00 PM - 08:00 PM)<br> 16th FEBRUARY 2020 (01:30 PM - 04:30 PM)',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
-			'timings' => '
-<br>Slot 1 : 05:00 PM - 08:00 PM - FEBRUARY 14th 2020<br>
-Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 16th 2020<br>',
+			'slot_info' => 'Participants are required to attend ONLY ONE of the slots to complete the workshop. Both the sessions are identical in content.',
+			'timings' => '<br>14th FEBRUARY 2020 (05:00 PM - 08:00 PM)<br> 16th FEBRUARY 2020 (01:30 PM - 04:30 PM)',
 			'link' => 'https://www.townscript.com/e/image-processing-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
-				In the age Creative Instagram filters to safety features using facial recognition, signal processing dealing with the manipulation of 2 dimensional digital images has become one of the current trendy technologies. CURRENTS’19 presents the startup pack to the world of Image Processing through the Python programming language. The workshop will cover all that’s needed to code and implement your very own image processing application for human interaction with your device.</p>
+				In the age of creative Instagram filters and safety features using facial recognition, signal processing dealing with the manipulation of 2 dimensional digital images has become one of the current trendy technologies. CURRENTS’20 presents the startup pack to the world of Image Processing through the Python programming language. The workshop will cover all that’s needed to code and implement your very own image processing application for human interaction with your device.</p>
 
 				<strong>Course Content</strong>
 				<ul>
@@ -368,7 +362,6 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 16th 2020<br>',
 					<li>Introduction to OpenCV module on Python</li>
 					<li>Edge detection and image enhancement</li>
 					<li>Centroids and Contours</li>
-					<li>Interfacing python with 3rd party applications</li>
 				</ul>
 				',
 			'contact' => '
@@ -377,7 +370,7 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 16th 2020<br>',
 			'color' => 'white',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false,
+			'prereq' => true,
 			'slots' => true
 
 		];
@@ -431,7 +424,7 @@ Route::get('/workshops/ml',function(){
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'A Team can consist of three members.',
-			'prereq' => false,
+			'prereq' => true,
 			'slots' => false
 		];
 	return view('20.workshop', $arr);
@@ -442,14 +435,13 @@ Route::get('/workshops/renewable', function() {
 			'bg' => 'renewable_energy_systems.jpg',
 			'duration' => '6 HOURS',
 			'cost' => '400/- per head',
-			'date' => ' 16th FEBRUARY 2019',
+			'date' => ' 15th FEBRUARY 2019',
 			'venue' => 'Orion NIT Trichy',
 			'team_max' => 'This is an individual workshop.',
 			'timings' => '09:30 AM - 04:30 PM<br>',
 			'link' => 'https://www.townscript.com/e/renewable-energy-systems-currents-nit-trichy',
 			'overview' => '
-				<p>Dwindling coal reserves coupled with the rising awareness about pollution, the shift in interest towards renewable energy was inevitable. In the crude oil industry, the Indian Government has declared that initiatives have been taken to change one-third of the diesel and petrol vehicles to electric by 2030. These developments point towards a promising change for a clean and green Earth in the future. To equip you, the future citizens of the country for this shift, we at CURRENTS’19 present to you a starter pack to kickstart your adventure in the world of renewable energy</p>
-
+				<p>Dwindling coal reserves coupled with the rising awareness about pollution, the shift in interest towards renewable energy was inevitable. In the crude oil industry, the Indian Government has declared that initiatives have been taken to change one-third of the diesel and petrol vehicles to electric by 2030. These developments point towards a promising change for a clean and green Earth in the future. To equip you, the future citizens of the country for this shift, we at CURRENTS’20 present to you a starter pack to kickstart your adventure in the world of renewable energy</p>
 
 				<strong>Course Content</strong>
 				<ul>
@@ -466,7 +458,7 @@ Route::get('/workshops/renewable', function() {
 			'color' => 'black',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false,
+			'prereq' => true,
 			'slots' => false
 		];
 	return view('20.workshop', $arr);
@@ -483,15 +475,14 @@ Route::get('/workshops/embedded_game_dev', function() {
 			'timings' => '09:30 AM - 04:30 PM<br>',
 			'link' => 'https://www.townscript.com/e/touch-pad-workshop-currents-nit-trichy',
 			'overview' => '
-				<p>It’s no secret that companies strive to reach beyond their peaks for bigger and better products, the smartphone industry being no less demanding. The striking features of smart phones mainly lies with its touchscreen. Apart from its display, the precision with which the human input is being received is what sets the mark. Do you have the curiosity to understand the concepts under this phenomenal concept? Come join us in CURRENTS’19 for the understanding and implementation of touchpads in your projects!
-</p>
+				<p>To be updated daw!!</p>
 
 				<strong>Course Content</strong>
 				<ul>
-				<li>Embedded Systems concepts</li>
-				<li>Introduction to the Arduino microcontroller and its programming</li>
-				<li>Programming LED matrix using MAX7219 driver</li>
-				<li>Creating an interactive snake game on the LED matrix</li>
+					<li>Embedded Systems concepts</li>
+					<li>Introduction to the Arduino microcontroller and its programming</li>
+					<li>Programming LED matrix using MAX7219 driver</li>
+					<li>Creating an interactive snake game on the LED matrix</li>
 				</ul>
 
 				',
