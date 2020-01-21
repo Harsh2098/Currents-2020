@@ -116,19 +116,18 @@ Route::get('/volts/salem', function() {
 		];
 	return view('19.gate', $arr);
 });
-Route::get('/volts/madurai', function() {
-	$arr = ['city' => 'Madurai',
-			'college' => 'Mangayarkarasi College of Engineering',
-			'area' => 'Madurai',
-			'date' => '20th January 2019',
-			'venue' => 'MANGAYARKARASI  COLLEGE OF  ENGINEERING,<br>
-						7-1-139, 1st STREET, MANGAYARKARASI NAGAR<br>
-						MADURAI - 625 402, TAMIL NADU, INDIA.<br>',
-			'timings' => '2 PM to 5 PM',
-			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.8639747905895!2d78.06675435489949!3d9.95657791127121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c8d51cea3eb9%3A0xfe8b4c2604f377dc!2sMangayarkarasi+College+of+Engineering!5e0!3m2!1sen!2sin!4v1547028014108',
-			'link' => 'https://bit.ly/2TElnqH'
+Route::get('/volts/sivakasi', function() {
+	$arr = ['city' => 'Sivakasi',
+			'college' => 'Mepco Schlenk Engineering College',
+			'area' => 'Sivakasi',
+			'date' => '27th January 2020',
+			'venue' => 'Sivakasi, Tamil Nadu<br>',
+			'timings' => '9 AM to 12 PM',
+			'map' => 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26469.837338862573!2d77.85877240272676!3d9.529146961943523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c7b889bf154fb86!2sMepco%20Schlenk%20Engineering%20College!5e0!3m2!1sen!2sin!4v1579589244376!5m2!1sen!2sin',
+			'link' => 'https://forms.gle/LBpuNquFNtXQrqZv5',
+			'cca' => 'https://currents.nitt.edu/cca'
 		];
-	return view('19.gate', $arr);
+	return view('20.gate', $arr);
 });
 /*Route::get('/volts/chennai', function() {
 	$arr = ['city' => 'Chennai',

@@ -50,13 +50,8 @@
 		<br><br>
 		<h1>Venue Partners of CURRENTS '20</h1>
 		<ul>
-			<li>Mangayarkarasi College of Engineering, Madurai</li>
-			<li>Government College of Engineering, Tirunelveli</li>
-			<li>Mahendra Engineering College, Salem</li>
-			<li>NIT Pondicherry</li>
-			<li>Karpagam Institute of Technology</li>
-			<li>Rajagiri School of Engineering and Technology</li>
-			<li>BMS College of Engineering, Bengaluru</li>
+			<li>PSG College of Technology, Coimbatore</li>
+			<li>Mepco Schlenk Engineering College, Sivakasi</li>
 		</ul>
 	</div>
 </section>
