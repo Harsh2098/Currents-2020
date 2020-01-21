@@ -24,7 +24,7 @@
                     <div class="h_container">
                         <div class="h_logo_">
                             <a href="/">
-                                <img src="images/logo-wb.png" class="h_logo_class" style="height:60px;width:60px;">
+                                <img src="https://currents.nitt.edu/images/logo-wb.png" class="h_logo_class" style="height:60px;width:60px;">
                             </a>
                         </div>
                         <div class="h_list_cont">

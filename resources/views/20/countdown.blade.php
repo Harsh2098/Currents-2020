@@ -17,8 +17,8 @@
 						<a href="/">Home</a>
 						<a href="eureka">Eureka</a>
 						<a href="volts">Volts</a>
-						<a href="cca">Campus Ambassador</a>
 						<a href="workshops">Workshops</a>
+						<a href="cca">CCA</a>
 					</div>
         		</div>
         		<div class='middle'>
