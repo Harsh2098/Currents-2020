@@ -4,10 +4,10 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         @section('title')
-        <title>Currents'19</title>
+        <title>Currents'20</title>
         @show
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="images/title_bar.png">
+        <link rel="shortcut icon" href="https://currents.nitt.edu/images/title_bar.png">
         @section('scripts')
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
         <script src="js/header.js"></script>

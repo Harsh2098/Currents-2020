@@ -19,7 +19,7 @@ Route::get('/', function () {
 return view('20.countdown');
 });
 Route::get('/hospitality',function(){
-	return view('19.hospitality');
+	return view('20.hospitality');
 });
 Route::get('/sponsors',function(){
 	return view('19.coming_soon');
