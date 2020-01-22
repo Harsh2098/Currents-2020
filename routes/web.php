@@ -76,12 +76,12 @@ Route::get('/volts/trichy', function() {
 	$arr = ['city' => 'Trichy',
 			'college' => 'National Institute of Technology',
 			'area' => 'Tiruchirappalli',
-			'date' => '25th January 2020',
+			'date' => '27th January 2020',
 			'venue' => 'NATIONAL INSTITUTE OF TECHNOLOGY<br>
 						TANJORE MAIN ROAD, NH 67,<br>
 						THUVAKKUDI,<br>
 						TRICHY - 620 015, TAMIL NADU, INDIA.<br>',
-			'timings' => '10 AM to 1 PM',
+			'timings' => '5 PM to 8 PM',
 			'cca' => 'https://currents.nitt.edu/cca',
 			'link' => 'https://forms.gle/yFCFhXNjLkE2HdQn6',
 			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.682713870967!2d78.81103031422612!3d10.758918092333415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa8d47758e1ae1%3A0xb3e16389eeab05a!2sNational+Institute+of+Technology+Tiruchirappalli!5e0!3m2!1sen!2sin!4v1547021447827',
