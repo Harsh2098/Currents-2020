@@ -158,20 +158,20 @@ Route::get('/volts/coimbatore', function() {
 	return view('20.gate', $arr);
 });
 
-Route::get('/volts/pondicherry', function() {
-	$arr = ['city' => 'Pondicherry',
+Route::get('/volts/calicut', function() {
+	$arr = ['city' => 'Calicut',
 			'college' => 'National Institute of Technology',
-			'area' => 'Pondicherry',
-			'date' => '27th January 2019',
-			'venue' => 'NIT PONDICHERRY,<br>
-						Mandapathur Road, Thiruvettakudy,<br>
-						Karaikal, Puducherry 609609',
-			'timings' => '10 AM to 1 PM',
-			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6527290428676!2d79.84282211390261!3d10.9895632582305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a55112d00000001%3A0xf49a63b1a880ea5f!2sNIT%2C+Puducherry!5e0!3m2!1sen!2sin!4v1547797482548',
-			'link' => 'https://www.townscript.com/e/simulacrum-currents-pondicherry',
-			'gate' => 'https://www.townscript.com/e/mock-gate-examination-pondicherry-gate'
+			'area' => 'Calicut',
+			'date' => '25th January 2020',
+			'venue' => 'NIT Calicut,<br>
+						Calicut Mukkam Road, <br>
+						Kattangal, Kerala 673601 ',
+			'timings' => '2 PM to 5 PM',
+			'map' => 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15648.718439433645!2d75.9336359!3d11.3215791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe8a77db953bda6c!2sNIT%20Calicut!5e0!3m2!1sen!2sin!4v1579681726250!5m2!1sen!2sin',
+			'link' => 'https://forms.gle/fvxQmdYCLdx4mQ2c9',
+			'cca' => 'https://currents.nitt.edu/cca'
 		];
-	return view('19.event_or', $arr);
+	return view('20.gate', $arr);
 });
 
 Route::get('/workshops/iot', function() {

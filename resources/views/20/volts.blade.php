@@ -118,8 +118,8 @@ html{scroll-behavior:smooth}
 		<a href="{{ env('APP_BASE_URL') }}/volts/coimbatore"><img class="img-link smaller" src="{{asset('https://currents.nitt.edu/images/coimbatore-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('https://currents.nitt.edu/images/trichy-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/sivakasi"><img class="img-link smaller" src="{{asset('https://currents.nitt.edu/images/sivakasi-round.png')}}"></a>
-		<!-- <a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('images/trichy-round.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/volts/pondicherry"><img class="img-link smaller" src="{{asset('images/pondicherry-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/calicut"><img class="img-link smaller" src="{{asset('https://currents.nitt.edu/images/calicut-round.png')}}"></a>
+		<!-- <a href="{{ env('APP_BASE_URL') }}/volts/pondicherry"><img class="img-link smaller" src="{{asset('images/pondicherry-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/madurai"><img class="img-link smaller" src="{{asset('images/madurai-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/tirunelveli"><img class="img-link smaller" src="{{asset('images/tirunelveli-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/salem"><img class="img-link smaller" src="{{asset('images/salem-round.png')}}"></a> -->
