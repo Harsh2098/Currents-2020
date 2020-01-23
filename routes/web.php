@@ -402,7 +402,7 @@ Route::get('/workshops/ml',function(){
 				<p>Dharun<br>+91 85550 55334</p>',
 			'color' => 'white',
 			'talign' => 'left',
-			'team_spec' => 'A Team can consist of three members.',
+			'team_spec' => 'This is an individual workshop.',
 			'prereq' => true,
 			'slots' => false
 		];
