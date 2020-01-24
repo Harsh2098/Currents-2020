@@ -34,7 +34,7 @@ Route::get('/lectures', function () {
 	return view('19.coming_soon');
 });
 Route::get('/events', function () {
-	return view('19.events');
+	return view('20.events');
 });
 Route::get('/workshops',function(){
 	return view('20.workshops');
@@ -70,7 +70,7 @@ Route::get('/volts/bengaluru', function() {
 	return view('19.bangalore');
 });
 Route::get('/volts/kochi', function() {
-	return view('19.kochi');
+	return view('20.kochi');
 });
 Route::get('/volts/trichy', function() {
 	$arr = ['city' => 'Trichy',

@@ -14,7 +14,7 @@
 			<div id='screen-container' class="fillParent">
         		<div class='header'>
             		<div id='links-container' class="fillParent">
-						<a href="/">Home</a>
+						<a href="events">Events</a>
 						<a href="eureka">Eureka</a>
 						<a href="volts">Volts</a>
 						<a href="workshops">Workshops</a>
