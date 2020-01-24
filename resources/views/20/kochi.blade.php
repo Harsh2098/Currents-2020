@@ -175,7 +175,8 @@ html {
 		</nav>
 		<div>&nbsp;</div>
 		<div class="center-title">
-			<img src="/images/logo-wb.png" alt="currents logo" width="auto" height="auto"/>
+			<img src="https://currents.nitt.edu/images/logo-wb.png" alt="currents logo" width="auto" height="auto"/>
+			<img src="https://currents.nitt.edu/images/volts-kochi-alt-image.png" alt="currents logo" width="auto" height="auto"/>
 		</div>
 		
 		<div class="title">VOLTS Kochi<br><br>Toc H Institute Of Science And Technology,<br>Kochi, Kerela<br><br>31st January 2020</div>
