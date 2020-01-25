@@ -187,9 +187,8 @@ html {
 		<div class="content" id="grid">
 			<section id="overview">
 				<h1>Overview</h1>
-				<p>Has the idea of cyborgs fascinated you? Ever wanted to have a mechanical arm controlled by your will? Felt the urge to be like those movie Scientists who lift heavy objects with their mechanical masterworks? Well look no further! CURRENTS, NIT TRICHY brings a portion of your dreams into reality in its workshop in Kochi!</p>
-				<p>We have organised a two day workshop on making a prototype of the Industrial Robotic Arm using Arduino Microcontroller board. The workshop will involve the building of the bot in stages from understanding the function of servo motors that drives the arm to interfacing of motors to the Arduino UNO all the way to object tracking in Image Processing and building control system blocks for the smooth functioning of the arm. The workshop is for teams of not more than four members each.</p>
-				<p>So what are you waiting for? Form your teams as we eagerly await to see you all there! Let’s ignite that learning spirit in us and move ahead together into the future that we shape for all!</p>
+				<p>With pollution rates on the rise, the need for cleaner technologies is something of increasing importance. Electric Vehicles are a giant leap taken to meet this demand to bring down the carbon footprint. With improvements in energy storage and transmutation over the past few decades resulting in miniaturisation of every component of Electric Vehicles(EV’s). In recent years, Tesla has managed to change the face of the industry completely with a focus on all that can be offered by EV’s: from the frontier of science, directly to our personal vehicles. From practical Autopilot technology to every model in their current lineup, to ranges of nearly 600 km in their newest Model X.</p>
+				<p>With this one-day workshop, we’ll provide you with an insight into this amazing field through effective demonstration through simulation in SIMULINK. Don’t miss this opportunity to sneak a peek into the forefront of the automobile industry!</p>
 			</section>
 			<section id="content">
 				<h1>Content</h1>
