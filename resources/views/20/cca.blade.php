@@ -131,7 +131,7 @@ html{scroll-behavior:smooth}
         <li style="float: right"><a href="#register">Register</a></li>
         <li style="float: right"><a href="#benefits">Benefits</a></li>
         <li style="float: right"><a href="#about">About</a></li>
-        <li><a style="padding: 0; height: 100%"><img src="{{asset('images/logo.jpg')}}"></a></li>
+        <li><a style="padding: 0; height: 100%"><img src="{{asset('https://currents.nitt.edu/images/logo-wb.png')}}"></a></li>
         
       </ul>
     </nav>

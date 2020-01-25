@@ -34,7 +34,7 @@ Route::get('/lectures', function () {
 	return view('19.coming_soon');
 });
 Route::get('/events', function () {
-	return view('20.events');
+	return view('19.coming_soon');
 });
 Route::get('/workshops',function(){
 	return view('20.workshops');

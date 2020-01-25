@@ -51,7 +51,7 @@
                                     Volts
                                 </div>
                                 <div class="h_menu_list" id="cca" onclick="location.href='/cca'">
-                                    Currents Ambassador
+                                    CCA
                                 </div>
                                 <!--<div class="h_menu_list" id="tronicals" onclick="location.href='/tronicals'">
                                     Tronicals
