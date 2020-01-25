@@ -17,6 +17,17 @@ function between(x, min, max) {
 	return x >= min && x <= max;
 }
 
+function setColor(k){
+	if(k == 0){
+		ctx.strokeStyle = '#00F8F2';
+		ctx.shadowColor = '#00F8F2';
+	}
+	else{
+		ctx.strokeStyle = '#FFBF00';
+		ctx.shadowColor = '#FFBF00';
+	}
+}
+
 var drawClock = setInterval(function() {
 	canvas.width = canvas.parentElement.clientWidth;
 	canvas.height = canvas.parentElement.clientHeight;
@@ -25,9 +36,18 @@ var drawClock = setInterval(function() {
 	ctx.lineCap = 'round';
 	ctx.shadowBlur = 15;
 	ctx.shadowColor = '#00F8F2';
-
-	var now = new Date().getTime();
+	
+	var today = new Date();
+	var now = today.getTime();
 	var timeLeft = countDownDate - now;
+	var bitsec = (today.getSeconds()%16);
+
+	var bitcodes = [0,0,0,0];
+	
+	for(var i = 3; i>=0; i--){
+		bitcodes[i] = parseInt(bitsec / (2**i));
+		bitsec = bitsec % (2**i);
+	}
 
 	if (timeLeft <= 0) {
 		clearInterval(drawClock);
@@ -71,21 +91,25 @@ var drawClock = setInterval(function() {
 	}
 
 	//Days
+	setColor(bitcodes[3]);
 	ctx.beginPath();
 	ctx.arc(xpos, ypos, 0.4 * radius, deg2rad(270), deg2rad((days + hours / 24) / 50 * 360 - 90));
 	ctx.stroke();
 
 	//Hours
+	setColor(bitcodes[2]);
 	ctx.beginPath();
 	ctx.arc(xpos, ypos, 0.35 * radius, deg2rad(270), deg2rad((hours + minutes / 60) / 24 * 360 - 90));
 	ctx.stroke();
 
 	//Minutes
+	setColor(bitcodes[1]);
 	ctx.beginPath();
 	ctx.arc(xpos, ypos, 0.3 * radius, deg2rad(270), deg2rad((minutes + seconds / 60) / 60 * 360 - 90));
 	ctx.stroke();
 
 	//Seconds
+	setColor(bitcodes[0]);
 	ctx.beginPath();
 	ctx.arc(xpos, ypos, 0.25 * radius, deg2rad(270), deg2rad((seconds + millseconds / 1000) / 60 * 360 - 90));
 	ctx.stroke();
@@ -98,7 +122,8 @@ var drawClock = setInterval(function() {
 
 	var text = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's to go...';
 	ctx.font = fontSize + 'px Raleway';
-	ctx.fillStyle = '#00F8F2';
+	ctx.fillStyle = '#FFBF00';
+	ctx.shadowColor = '#FFBF00';
 
 	if (radius <= 265) {
 		text = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';
