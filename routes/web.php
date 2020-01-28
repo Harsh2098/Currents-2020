@@ -483,8 +483,8 @@ Route::get('/events/colloquium', function() {
 	$arr = ['title' => 'Colloquium',
 			'bg' => 'IOT.jpg',
 			'duration' => '3 HOURS',
-			'date' => 'FEBRUARY 14th 2020',
-			'venue' => 'Online Event',
+			'date' => 'FEBRUARY 15th 2020',
+			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '9:30 AM to 12:30 PM',
 			'link' => 'https://www.google.com.sg',
@@ -532,21 +532,38 @@ Route::get('/events/code_currents', function() {
 Route::get('/events/capture_currents', function() {
 	$arr = ['title' => 'Capture Currents',
 			'bg' => 'IOT.jpg',
-			'duration' => '3 HOURS',
-			'date' => 'FEBRUARY 13th 2020',
+			'duration' => '',
+			'date' => 'Round 1 (Deadline: FEBRUARY 1st 2020)',
 			'venue' => 'Online Event',
-			'team_max' => 'A Team can consist of maximum 3 members.',
-			'timings' => '9:30 AM to 12:30 PM',
-			'link' => 'https://www.google.com.sg',
+			'team_max' => 'This is an individual event.',
+			'timings' => '',
+			'link' => 'http://bit.ly/Capture_Currents2020_Prelims',
 			'overview' => '
 				<p>
 				Do you have an interest in photography? Do you have the keen eye that captures the beautiful and dazzling moments of this world? CURRENTS’19 has an event just for those eyes behind the lens. Capture Currents, an online photography event open to participants from any institute pursuing any degree in undergraduate to participate in. The event is evaluated in two rounds.
 				</p>',
 			'contact' => '
-				<p>Harinaathgobi<br>+91 97903 20049<p>
-				<p>Vivek DC<br>+91 99931 67207</p>',
+				<p>Rasal<br>+91 85474 26790<p>
+				<p>Madhavan<br>+91 82817 92956</p>
+				<p>Arun<br>+91 73589 19092</p>',
+			'format' => 'EVENT FORMAT:
+				The photography contest will comprise two rounds: preliminary and final
+				rounds.
+				Preliminary round
+				There will be one sole eliminative preliminary round for the event. Participants can submit
+				only ONE photograph pertaining to any theme of the participant’s choice.The theme
+				should be mentioned along with caption.The judges will pick finalists from the preliminary
+				stage.
+				
+				Final round
+				Participants would be required to submit only ONE photograph for the final round with a
+				caption for the theme. The theme will be announced after the preliminary round. These
+				photographs will be published in currents social media handles and the number of likes it
+				receives will have a partial weightage along with the judges’ decision.
+				',
+			'prize' => 'Prizes worth Rs.5000 and Gift vouchers worth Rs.3000',
 			'color' => 'white',
-			'talign' => 'left',
+			'talign' => 'right',
 			'prereq' => true,
 			'slots' => false
 		];

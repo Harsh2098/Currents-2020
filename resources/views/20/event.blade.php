@@ -184,35 +184,27 @@ html {
 						<li><strong>{{ $slot_info }}</strong></li>
 					@endif
 					<li>DATE: {!! $date !!}</li>
-					@if($title == 'Internet of Things' || $title == 'Augmented Reality' || $title == 'Machine Learning' || $title == 'RENEWABLE ENERGY SYSTEMS' || $title == 'Embedded Game Development')
+					@if($title != 'Capture Currents')
 						<li>TIMINGS: {!! $timings !!}</li>
 					@endif
-					<li>DURATION: {{ $duration }} </li>
+					@if($title != 'Capture Currents')
+						<li>DURATION: {{ $duration }} </li>
+					@endif
 					<li>VENUE: {{ $venue }}	</li>
 					<li>{{ $team_max }}</li>
-					<li><strong>Limited number of seats</strong></li>
 				</ul>
 			</section>
 			<section id="rules">
 				<h1>Rules</h1>
-				<ul>
-					<li>
-						ELIGIBILITY:<br>
-						Participants having a valid ID card of their respective educational institutions are eligible for the workshop.
-					</li>
-					@if($prereq == true)
-					<li>
-						PREREQUISITES:<br>
-						It is recommended to bring a laptop with Windows (8/10) to the workshop.
-					</li>
-					@endif
-					<li>
-						CERTIFICATE:<br>
-						Participants should be present throughout the workshop. Failing this no certificate will be awarded to the participant.
-					</li>
-				</ul>
+				<p><a target="_blank" href="/download/Capture_Currents_Rulebook.pdf">Click here to see Rule Book</a></p>
+			</section>
+			<section id="format">
+				<h1>Format of the Event</h1>
+				<p>{{ $format }}</p>
 			</section>
 			<section id="awards">
+				<h1>Prizes</h1>
+				<p>{{ $prize }}</p>
 			</section>
 			<section id="contact">
 				<h1>Contact</h1>
