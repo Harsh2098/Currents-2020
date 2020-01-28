@@ -34,7 +34,7 @@ Route::get('/lectures', function () {
 	return view('19.coming_soon');
 });
 Route::get('/events', function () {
-	return view('19.coming_soon');
+	return view('20.events');
 });
 Route::get('/workshops',function(){
 	return view('20.workshops');
@@ -476,6 +476,155 @@ Route::get('/workshops/embedded_game_dev', function() {
 
 		];
 	return view('20.workshop', $arr);
+});
+
+// Event specific routes
+Route::get('/events/colloquium', function() {
+	$arr = ['title' => 'Colloquium',
+			'bg' => 'IOT.jpg',
+			'duration' => '3 HOURS',
+			'date' => 'FEBRUARY 14th 2020',
+			'venue' => 'Online Event',
+			'team_max' => 'A Team can consist of maximum 3 members.',
+			'timings' => '9:30 AM to 12:30 PM',
+			'link' => 'https://www.google.com.sg',
+			'overview' => '
+				<p>
+				Does your mind spark with ideas in the field of Electrical and Electronics? Do you have an idea to present to the world? Colloquium is the platform just for you! The event allows you to present a paper based on your innovative idea. The best idea bags the prize.
+				The paper should be submitted in PDF format (with an A4 page size) which should necessarily have an abstract and its first title should necessarily be "Introduction"; the last two titles of the paper should necessarily be "Conclusion" and "References", and the abstract should be brief containing at most 300 words. The limit on the number of pages of full length paper is at most 10 sides (including tables, figures, references etc.). Do not deviate from this format. which should contain a general summary of the paper stating the problem statement, recent works, the proposed methodology and major contribution of the paper.
+				</p>',
+			'contact' => '
+				<p>Harinaathgobi<br>+91 97903 20049<p>
+				<p>Vivek DC<br>+91 99931 67207</p>',
+			'color' => 'white',
+			'talign' => 'right',
+			'prereq' => true,
+			'slots' => false
+		];
+	return view('20.event', $arr);
+});
+
+Route::get('/events/code_currents', function() {
+	$arr = ['title' => 'Code Currents',
+			'bg' => 'IOT.jpg',
+			'duration' => '3 HOURS',
+			'date' => 'FEBRUARY 14th 2020',
+			'venue' => 'Online Event',
+			'team_max' => 'A Team can consist of maximum 3 members.',
+			'timings' => '9:30 AM to 12:30 PM',
+			'link' => 'https://www.google.com.sg',
+			'overview' => '
+				<p>
+				Ever been intrigued to solve complex programs? Felt the thrill while unravelling the solutions for a problem statement? CURRENTS’19 in association with HackerEarth brings its event Code Currents just for you! Dive into the world of coding for 3 hours in the language of your choice to bring light to the solution of the problem statement given through an amalgamation of concepts, mathematical and logical skills.
+				Register through the link one week prior to the event to dive into the coding world! Contestants would receive a link to participate in their email after registration.
+				</p>',
+			'contact' => '
+				<p>Harinaathgobi<br>+91 97903 20049<p>
+				<p>Vivek DC<br>+91 99931 67207</p>',
+			'color' => 'white',
+			'talign' => 'left',
+			'prereq' => true,
+			'slots' => false
+		];
+	return view('20.event', $arr);
+});
+
+Route::get('/events/capture_currents', function() {
+	$arr = ['title' => 'Capture Currents',
+			'bg' => 'IOT.jpg',
+			'duration' => '3 HOURS',
+			'date' => 'FEBRUARY 13th 2020',
+			'venue' => 'Online Event',
+			'team_max' => 'A Team can consist of maximum 3 members.',
+			'timings' => '9:30 AM to 12:30 PM',
+			'link' => 'https://www.google.com.sg',
+			'overview' => '
+				<p>
+				Do you have an interest in photography? Do you have the keen eye that captures the beautiful and dazzling moments of this world? CURRENTS’19 has an event just for those eyes behind the lens. Capture Currents, an online photography event open to participants from any institute pursuing any degree in undergraduate to participate in. The event is evaluated in two rounds.
+				</p>',
+			'contact' => '
+				<p>Harinaathgobi<br>+91 97903 20049<p>
+				<p>Vivek DC<br>+91 99931 67207</p>',
+			'color' => 'white',
+			'talign' => 'left',
+			'prereq' => true,
+			'slots' => false
+		];
+	return view('20.event', $arr);
+});
+
+Route::get('/events/dhruva', function() {
+	$arr = ['title' => 'Dhruva',
+			'bg' => 'IOT.jpg',
+			'duration' => '2 HOURS',
+			'date' => 'FEBRUARY 16th 2020',
+			'venue' => 'Online Event',
+			'team_max' => 'A Team can consist of maximum 2 members.',
+			'timings' => '9:30 AM to 12:30 PM',
+			'link' => 'https://www.google.com.sg',
+			'overview' => '
+				<p>
+				Creativity begins with a foundation of knowledge, learning a discipline and mastering a way of thought. Dhruva, the flagship event of CURRENTS sponsored by Alumni, provides a chance to project your creative and imaginative ideas. In the initial round basic mathematical skills will be tested. Dhruva not only tests your technical knowledge and engineering expertise but also your creativity in finding solutions when posed a critical situation.
+				</p>',
+			'contact' => '
+				<p>Harinaathgobi<br>+91 97903 20049<p>
+				<p>Vivek DC<br>+91 99931 67207</p>',
+			'color' => 'white',
+			'talign' => 'left',
+			'prereq' => true,
+			'slots' => false
+		];
+	return view('20.event', $arr);
+});
+
+Route::get('/events/simulacrum', function() {
+	$arr = ['title' => 'Simulacrum',
+			'bg' => 'IOT.jpg',
+			'duration' => '3 HOURS',
+			'date' => 'FEBRUARY 15th 2020',
+			'venue' => 'Online Event',
+			'team_max' => 'A Team can consist of maximum 2 members.',
+			'timings' => '1:30 PM to 04:30 PM',
+			'link' => 'https://www.google.com.sg',
+			'overview' => '
+				<p>
+				If simulating in MATLAB interests you, CURRENTS’19 has the perfect opportunity for you. You do not have to excel, being interested is all what matters. Participate in Simulacrum and show your skills using Simulink to grab prizes worth Prizes worth 6,000
+						Conducted in two rounds. First round will primarily be conducted during the outreach. We will also conduct round 1 separately during CURRENTS’19 for other participants. Participants must come with their own laptop.
+						Participants can form teams of 2.
+				</p>',
+			'contact' => '
+				<p>Harinaathgobi<br>+91 97903 20049<p>
+				<p>Vivek DC<br>+91 99931 67207</p>',
+			'color' => 'white',
+			'talign' => 'right',
+			'prereq' => true,
+			'slots' => false
+		];
+	return view('20.event', $arr);
+});
+
+Route::get('/events/line_follower', function() {
+	$arr = ['title' => 'Line Follower',
+			'bg' => 'IOT.jpg',
+			'duration' => '3 HOURS',
+			'date' => 'FEBRUARY 16th 2020',
+			'venue' => 'Online Event',
+			'team_max' => 'A Team can consist of maximum 3 members.',
+			'timings' => '9:30 AM to 12:30 PM',
+			'link' => 'https://www.google.com.sg',
+			'overview' => '
+				<p>
+				Suppress the rebel in you and follow the line to win bragging rights! Discover the Tony Stark in you as you make the fastest robot to finish the track. CURRENTS`20 presents Line Follower, a robotics contest to prove your mettle in dextrous design of a line follower bot. The winners get the added bonus of exciting prizes too.
+				</p>',
+			'contact' => '
+				<p>Harinaathgobi<br>+91 97903 20049<p>
+				<p>Vivek DC<br>+91 99931 67207</p>',
+			'color' => 'white',
+			'talign' => 'left',
+			'prereq' => true,
+			'slots' => false
+		];
+	return view('20.event', $arr);
 });
 
 Route::get('/eureka/register', function() {
