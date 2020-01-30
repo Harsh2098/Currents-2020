@@ -10,7 +10,7 @@
 <section class="main_page_str">
 	<div class="title">Events</div>
 	<div class="content">
-		<a href="{{ env('APP_BASE_URL') }}/events/capture_currents"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_game_20.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/events/capture_currents"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/event_capture_currents.png')}}"></a>
 		<!-- <a href="{{ env('APP_BASE_URL') }}/events/code_currents"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_game_20.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/events/colloquium"><img class="img-link" src="{{asset('https://currents.nitt.edu/images/workshop_game_20.png')}}"></a>
 		<br>

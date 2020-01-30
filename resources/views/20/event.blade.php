@@ -21,7 +21,7 @@ body {
 	color: {{ $color  }};
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background-image: url("{{ asset('https://currents.nitt.edu/images/workshop_background/'.$bg) }}");
+	background-image: url("{{ asset('https://currents.nitt.edu/images/event_background/'.$bg) }}");
 	background-repeat:  no-repeat;
 	background-position: 0% 0%;
 	background-size: 100%;

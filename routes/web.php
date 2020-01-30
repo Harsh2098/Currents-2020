@@ -531,7 +531,7 @@ Route::get('/events/code_currents', function() {
 
 Route::get('/events/capture_currents', function() {
 	$arr = ['title' => 'Capture Currents',
-			'bg' => 'IOT.jpg',
+			'bg' => 'capture_currents.jpg',
 			'duration' => '',
 			'date' => 'Round 1 (Deadline: FEBRUARY 1st 2020)',
 			'venue' => 'Online Event',
@@ -563,7 +563,7 @@ Route::get('/events/capture_currents', function() {
 				',
 			'prize' => 'Prizes worth Rs.5000 and Gift vouchers worth Rs.3000',
 			'color' => 'white',
-			'talign' => 'right',
+			'talign' => 'left',
 			'prereq' => true,
 			'slots' => false
 		];
