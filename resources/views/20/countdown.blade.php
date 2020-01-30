@@ -25,6 +25,7 @@
 							<i class="fa fa-caret-down"></i>
 							</button>
 							<div class="dropdown-content">
+								<a href="https://www.uniqtechnologies.co.in/" target="_blank">UNIQ Technologies</a>
 								<a href="https://studentsbazaar.in/" target="_blank">Student Bazaar</a>
 								<a href="http://www.internshipinchennai.com/" target="_blank">Internship</a>
 								<a href="http://www.ieeefinalyearprojects.org/" target="_blank">IEEE Projects</a>
