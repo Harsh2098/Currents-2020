@@ -513,7 +513,7 @@ Route::get('/events/colloquium', function() {
 
 Route::get('/events/code_currents', function() {
 	$arr = ['title' => 'Code Currents',
-			'bg' => 'iot.jpeg',
+			'bg' => 'code_currents.jpeg',
 			'duration' => '2 HOURS',
 			'date' => 'FEBRUARY 10th 2020',
 			'venue' => 'Online Event',
@@ -638,7 +638,7 @@ Route::get('/events/iot_challenge', function() {
 
 Route::get('/events/line_follower', function() {
 	$arr = ['title' => 'Line Follower',
-			'bg' => 'IOT.jpg',
+			'bg' => 'iot.jpeg',
 			'duration' => '3 HOURS',
 			'date' => 'FEBRUARY 16th 2020',
 			'venue' => 'Online Event',
