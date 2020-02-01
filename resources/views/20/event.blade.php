@@ -196,7 +196,7 @@ html {
 			</section>
 			<section id="rules">
 				<h1>Rules</h1>
-				<p><a target="_blank" href="/download/Capture_Currents_Rulebook.pdf">Click here to see Rule Book</a></p>
+				<p><a target="_blank" href="/download/{{ $rule_book }}">Click here to see Rule Book</a></p>
 			</section>
 			<section id="format">
 				<h1>Format of the Event</h1>

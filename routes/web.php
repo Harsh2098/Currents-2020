@@ -482,24 +482,31 @@ Route::get('/workshops/embedded_game_dev', function() {
 Route::get('/events/colloquium', function() {
 	$arr = ['title' => 'Colloquium',
 			'bg' => 'IOT.jpg',
-			'duration' => '3 HOURS',
-			'date' => 'FEBRUARY 15th 2020',
-			'venue' => 'Orion, NIT Trichy',
+			'duration' => 'Each team will be given maximum of 10 minutes to present the paper',
+			'date' => 'FEBRUARY 15th 2020 (Deadline for Paper submission: 7th February 2020)',
+			'venue' => 'EEE Department, NIT Trichy',
 			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '9:30 AM to 12:30 PM',
-			'link' => 'https://www.google.com.sg',
+			'link' => 'http://bit.ly/colloquium_reg',
 			'overview' => '
 				<p>
-				Does your mind spark with ideas in the field of Electrical and Electronics? Do you have an idea to present to the world? Colloquium is the platform just for you! The event allows you to present a paper based on your innovative idea. The best idea bags the prize.
-				The paper should be submitted in PDF format (with an A4 page size) which should necessarily have an abstract and its first title should necessarily be "Introduction"; the last two titles of the paper should necessarily be "Conclusion" and "References", and the abstract should be brief containing at most 300 words. The limit on the number of pages of full length paper is at most 10 sides (including tables, figures, references etc.). Do not deviate from this format. which should contain a general summary of the paper stating the problem statement, recent works, the proposed methodology and major contribution of the paper.
+				Engineers are the roots of invention. Theorization is the first step towards invention. If you have the ability to catalyse the evolution of science with your ideas, Currents 19 brings to you, COLLOQUIUM, the annual paper presentation event of the Department of EEE, NIT Trichy. A platform where you can present your research work in Electrical and Electronics Engineering and have an opportunity to win INR 10,000 cash prize.
 				</p>',
 			'contact' => '
-				<p>Harinaathgobi<br>+91 97903 20049<p>
-				<p>Vivek DC<br>+91 99931 67207</p>',
+				<p>Poorvaja:+91 88259 35421</p>
+				<p>Akash   :+91 95970 56201</p>
+				<p>Adil    :+91 90613 04318</p>',
 			'color' => 'white',
-			'talign' => 'right',
+			'talign' => 'left',
+			'format' => 'EVENT FORMAT:
+			Top 10 papers will present during Currents
+			Top 3 will be published in reputed journal
+			Papers to be mailed along with details of authors to 
+			eeea.colloquium20@gmail.com',
 			'prereq' => true,
-			'slots' => false
+			'slots' => false,
+			'prize' => 'Cash prize worth Rs.10,000',
+			'rule_book' => 'COLLOQUIUM_RULE_BOOK.pdf'
 		];
 	return view('20.event', $arr);
 });
@@ -507,24 +514,28 @@ Route::get('/events/colloquium', function() {
 Route::get('/events/code_currents', function() {
 	$arr = ['title' => 'Code Currents',
 			'bg' => 'IOT.jpg',
-			'duration' => '3 HOURS',
-			'date' => 'FEBRUARY 14th 2020',
+			'duration' => '2 HOURS',
+			'date' => 'FEBRUARY 10th 2020',
 			'venue' => 'Online Event',
-			'team_max' => 'A Team can consist of maximum 3 members.',
-			'timings' => '9:30 AM to 12:30 PM',
-			'link' => 'https://www.google.com.sg',
+			'team_max' => 'This is an individual event.',
+			'timings' => '7:00 PM to 9:00 PM',
+			'link' => '',
 			'overview' => '
 				<p>
-				Ever been intrigued to solve complex programs? Felt the thrill while unravelling the solutions for a problem statement? CURRENTS’19 in association with HackerEarth brings its event Code Currents just for you! Dive into the world of coding for 3 hours in the language of your choice to bring light to the solution of the problem statement given through an amalgamation of concepts, mathematical and logical skills.
-				Register through the link one week prior to the event to dive into the coding world! Contestants would receive a link to participate in their email after registration.
+				Are you passionate about coding? Are your dreams being all about algorithms? To all coding maniacs and algorithm freaks, Currents ’20 in association with Codechef presents you, CODE CURRENTS, an international online coding event. Participate and have a chance to win gigantic INR 10,000 cash prize.
 				</p>',
 			'contact' => '
-				<p>Harinaathgobi<br>+91 97903 20049<p>
-				<p>Vivek DC<br>+91 99931 67207</p>',
+				<p>Harsh Mahajan - +91 75388 77120</p>
+				<p>Sithartha - +91 94454 60862</p>
+				<p>Pasindu - +91 94775 619205</p>
+				<p>Purushoth - +91 93849 29631</p>',
+			'format' => 'Score based competition',
 			'color' => 'white',
 			'talign' => 'left',
+			'prize' => 'Cash prize worth Rs.10,000',
 			'prereq' => true,
-			'slots' => false
+			'slots' => false,
+			'rule_book' => ''
 		];
 	return view('20.event', $arr);
 });
@@ -533,14 +544,14 @@ Route::get('/events/capture_currents', function() {
 	$arr = ['title' => 'Capture Currents',
 			'bg' => 'capture_currents.jpg',
 			'duration' => '',
-			'date' => 'Round 1 (Deadline: FEBRUARY 1st 2020)',
+			'date' => 'Round 1 (Deadline: FEBRUARY 4th 2020)<br>Round 2 (Deadline: FEBRUARY 11th 2020)',
 			'venue' => 'Online Event',
 			'team_max' => 'This is an individual event.',
 			'timings' => '',
 			'link' => 'http://bit.ly/Capture_Currents2020_Prelims',
 			'overview' => '
 				<p>
-				Do you have an interest in photography? Do you have the keen eye that captures the beautiful and dazzling moments of this world? CURRENTS’19 has an event just for those eyes behind the lens. Capture Currents, an online photography event open to participants from any institute pursuing any degree in undergraduate to participate in. The event is evaluated in two rounds.
+				Grab your camera, set your frame and focus. Currents ’20 presents you, CAPTURE CURRENTS, an online photography event. Unearth the hidden shutter bug in you and win up to INR 5,000 cash prize and gift voucher worth INR 3,000.
 				</p>',
 			'contact' => '
 				<p>Rasal<br>+91 85474 26790<p>
@@ -565,7 +576,8 @@ Route::get('/events/capture_currents', function() {
 			'color' => 'white',
 			'talign' => 'left',
 			'prereq' => true,
-			'slots' => false
+			'slots' => false,
+			'rule_book' => 'Capture_Currents_Rulebook.pdf'
 		];
 	return view('20.event', $arr);
 });
@@ -573,29 +585,32 @@ Route::get('/events/capture_currents', function() {
 Route::get('/events/dhruva', function() {
 	$arr = ['title' => 'Dhruva',
 			'bg' => 'IOT.jpg',
-			'duration' => '2 HOURS',
-			'date' => 'FEBRUARY 16th 2020',
-			'venue' => 'Online Event',
-			'team_max' => 'A Team can consist of maximum 2 members.',
-			'timings' => '9:30 AM to 12:30 PM',
+			'duration' => '',
+			'date' => 'FEBRUARY 15th 2020 (Evening) - Round 1<br>FEBRUARY 16th 2020 (Morning) - Round 2',
+			'venue' => 'NIT Trichy',
+			'team_max' => 'This is an individual event.',
+			'timings' => '',
 			'link' => 'https://www.google.com.sg',
 			'overview' => '
 				<p>
 				Creativity begins with a foundation of knowledge, learning a discipline and mastering a way of thought. Dhruva, the flagship event of CURRENTS sponsored by Alumni, provides a chance to project your creative and imaginative ideas. In the initial round basic mathematical skills will be tested. Dhruva not only tests your technical knowledge and engineering expertise but also your creativity in finding solutions when posed a critical situation.
 				</p>',
 			'contact' => '
-				<p>Harinaathgobi<br>+91 97903 20049<p>
-				<p>Vivek DC<br>+91 99931 67207</p>',
+				<p>Thomas - +91 88487 40497</p>
+				<p>Sabharinathan - +91 99403 21819</p>',
 			'color' => 'white',
 			'talign' => 'left',
 			'prereq' => true,
-			'slots' => false
+			'slots' => false,
+			'format' => 'Will be announced soon',
+			'prize' => 'Cash prize worth Rs.5,000',
+			'rule_book' => ''
 		];
 	return view('20.event', $arr);
 });
 
-Route::get('/events/simulacrum', function() {
-	$arr = ['title' => 'Simulacrum',
+Route::get('/events/iot_challenge', function() {
+	$arr = ['title' => 'IOT Challenge',
 			'bg' => 'IOT.jpg',
 			'duration' => '3 HOURS',
 			'date' => 'FEBRUARY 15th 2020',
@@ -605,17 +620,18 @@ Route::get('/events/simulacrum', function() {
 			'link' => 'https://www.google.com.sg',
 			'overview' => '
 				<p>
-				If simulating in MATLAB interests you, CURRENTS’19 has the perfect opportunity for you. You do not have to excel, being interested is all what matters. Participate in Simulacrum and show your skills using Simulink to grab prizes worth Prizes worth 6,000
-						Conducted in two rounds. First round will primarily be conducted during the outreach. We will also conduct round 1 separately during CURRENTS’19 for other participants. Participants must come with their own laptop.
-						Participants can form teams of 2.
+				*IOT Challenge Overview*
 				</p>',
 			'contact' => '
-				<p>Harinaathgobi<br>+91 97903 20049<p>
-				<p>Vivek DC<br>+91 99931 67207</p>',
+				<p>Sithartha - +91 94454 60862</p>
+				<p>Purushoth - +91 93849 29631</p>',
 			'color' => 'white',
 			'talign' => 'right',
 			'prereq' => true,
-			'slots' => false
+			'slots' => false,
+			'format' => 'Will be announced soon',
+			'prize' => 'Cash prize worth Rs.10,000',
+			'rule_book' => ''
 		];
 	return view('20.event', $arr);
 });
@@ -634,12 +650,16 @@ Route::get('/events/line_follower', function() {
 				Suppress the rebel in you and follow the line to win bragging rights! Discover the Tony Stark in you as you make the fastest robot to finish the track. CURRENTS`20 presents Line Follower, a robotics contest to prove your mettle in dextrous design of a line follower bot. The winners get the added bonus of exciting prizes too.
 				</p>',
 			'contact' => '
-				<p>Harinaathgobi<br>+91 97903 20049<p>
-				<p>Vivek DC<br>+91 99931 67207</p>',
+				<p>Arun - +91 73589 19092</p>
+				<p>Manimozhi - +91 70920 20858</p>
+				<p>Bala Sridhar - +91 83004 42783</p>',
 			'color' => 'white',
 			'talign' => 'left',
 			'prereq' => true,
-			'slots' => false
+			'slots' => false,
+			'format' => 'Will be announced soon',
+			'prize' => 'Cash prize worth Rs.10,000',
+			'rule_book' => ''
 		];
 	return view('20.event', $arr);
 });
