@@ -513,7 +513,7 @@ Route::get('/events/colloquium', function() {
 
 Route::get('/events/code_currents', function() {
 	$arr = ['title' => 'Code Currents',
-			'bg' => 'IOT.jpg',
+			'bg' => 'iot.jpeg',
 			'duration' => '2 HOURS',
 			'date' => 'FEBRUARY 10th 2020',
 			'venue' => 'Online Event',
@@ -584,13 +584,13 @@ Route::get('/events/capture_currents', function() {
 
 Route::get('/events/dhruva', function() {
 	$arr = ['title' => 'Dhruva',
-			'bg' => 'IOT.jpg',
+			'bg' => 'dhruva.jpeg',
 			'duration' => '',
 			'date' => 'FEBRUARY 15th 2020 (Evening) - Round 1<br>FEBRUARY 16th 2020 (Morning) - Round 2',
 			'venue' => 'NIT Trichy',
 			'team_max' => 'This is an individual event.',
 			'timings' => '',
-			'link' => 'https://www.google.com.sg',
+			'link' => '/',
 			'overview' => '
 				<p>
 				Creativity begins with a foundation of knowledge, learning a discipline and mastering a way of thought. Dhruva, the flagship event of CURRENTS sponsored by Alumni, provides a chance to project your creative and imaginative ideas. In the initial round basic mathematical skills will be tested. Dhruva not only tests your technical knowledge and engineering expertise but also your creativity in finding solutions when posed a critical situation.
@@ -611,13 +611,13 @@ Route::get('/events/dhruva', function() {
 
 Route::get('/events/iot_challenge', function() {
 	$arr = ['title' => 'IOT Home Automation Challenge',
-			'bg' => 'IOT.jpg',
+			'bg' => 'iot.jpeg',
 			'duration' => '3 HOURS',
 			'date' => 'FEBRUARY 15th 2020',
 			'venue' => 'Online Event',
 			'team_max' => 'A Team can consist of maximum 2 members.',
 			'timings' => '1:30 PM to 04:30 PM',
-			'link' => 'https://www.google.com.sg',
+			'link' => '/',
 			'overview' => '
 				<p>
 				*IOT Challenge Overview*
@@ -626,7 +626,7 @@ Route::get('/events/iot_challenge', function() {
 				<p>Sithartha - +91 94454 60862</p>
 				<p>Purushoth - +91 93849 29631</p>',
 			'color' => 'white',
-			'talign' => 'right',
+			'talign' => 'left',
 			'prereq' => true,
 			'slots' => false,
 			'format' => 'Will be announced soon',
