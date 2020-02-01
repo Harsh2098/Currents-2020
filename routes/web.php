@@ -481,7 +481,7 @@ Route::get('/workshops/embedded_game_dev', function() {
 // Event specific routes
 Route::get('/events/colloquium', function() {
 	$arr = ['title' => 'Colloquium',
-			'bg' => 'IOT.jpg',
+			'bg' => 'colloquium.jpeg',
 			'duration' => 'Each team will be given maximum of 10 minutes to present the paper',
 			'date' => 'FEBRUARY 15th 2020 (Deadline for Paper submission: 7th February 2020)',
 			'venue' => 'EEE Department, NIT Trichy',
@@ -496,8 +496,8 @@ Route::get('/events/colloquium', function() {
 				<p>Poorvaja:+91 88259 35421</p>
 				<p>Akash   :+91 95970 56201</p>
 				<p>Adil    :+91 90613 04318</p>',
-			'color' => 'white',
-			'talign' => 'left',
+			'color' => 'black',
+			'talign' => 'right',
 			'format' => 'EVENT FORMAT:
 			Top 10 papers will present during Currents
 			Top 3 will be published in reputed journal
@@ -610,7 +610,7 @@ Route::get('/events/dhruva', function() {
 });
 
 Route::get('/events/iot_challenge', function() {
-	$arr = ['title' => 'IOT Challenge',
+	$arr = ['title' => 'IOT Home Automation Challenge',
 			'bg' => 'IOT.jpg',
 			'duration' => '3 HOURS',
 			'date' => 'FEBRUARY 15th 2020',
