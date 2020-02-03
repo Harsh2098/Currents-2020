@@ -64,6 +64,16 @@ body {
 	margin-right: 5%;
 	float: {{ $talign }};
 }
+._other_workshops {
+	color: {{ $color }};
+	padding: 1% 2%;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: {{ $talign }};
+}
 h1 {
 	font-size: 2em;
 	font-weight: bolder;
@@ -169,7 +179,25 @@ html {
 		<div>&nbsp;</div>
 		<div class="title"><div>{{ $title }}<br><br> {!! $date !!}</div></div>
 		<div>
-			<button type="button" onclick="location='{{ $link }}'" class="_button tsbutton" >Register Now !</button>
+		<button onclick="location='{{ $link }}'" class="_button tsbutton"
+				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				disabled
+				style="background-color: grey"
+				@endif>
+				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				Sold Out
+				@else
+				Register Now !
+				@endif
+				</button>
+		</div>
+		<br><br><br><br>
+		<div>
+		@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+		<button onclick="location='https://currents.nitt.edu/workshops'" class="_button tsbutton">
+				Checkout other Workshops
+				</button>
+		@endif
 		</div>
 		<br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="content" id="grid">
@@ -225,7 +253,16 @@ html {
 				<p>You can also reach out to us at <a href="mailto:eee.currents@gmail.com">eee.currents@gmail.com</a></p>
 			</section>
 			<section id="register">
-				<button onclick="location='{{ $link }}'" class="tsbutton">Register Now !
+			<button onclick="location='{{ $link }}'" class="tsbutton"
+				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				disabled
+				style="background-color: grey"
+				@endif>
+				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				Sold Out
+				@else
+				Register Now !
+				@endif
 				</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
 			</section>
 		</div>
