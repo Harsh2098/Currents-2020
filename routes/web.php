@@ -519,7 +519,7 @@ Route::get('/events/code_currents', function() {
 			'venue' => 'Online Event',
 			'team_max' => 'This is an individual event.',
 			'timings' => '7:00 PM to 9:00 PM',
-			'link' => '',
+			'link' => 'http://bit.ly/Code_Currents20',
 			'overview' => '
 				<p>
 				Are you passionate about coding? Are your dreams being all about algorithms? To all coding maniacs and algorithm freaks, Currents ’20 in association with Codechef presents you, CODE CURRENTS, an international online coding event. Participate and have a chance to win gigantic INR 10,000 cash prize.
@@ -535,7 +535,7 @@ Route::get('/events/code_currents', function() {
 			'prize' => 'Cash prize worth Rs.10,000',
 			'prereq' => true,
 			'slots' => false,
-			'rule_book' => ''
+			'rule_book' => 'Code_Currents.pdf'
 		];
 	return view('20.event', $arr);
 });
