@@ -641,10 +641,10 @@ Route::get('/events/line_follower', function() {
 			'bg' => 'iot.jpeg',
 			'duration' => '3 HOURS',
 			'date' => 'FEBRUARY 16th 2020',
-			'venue' => 'Online Event',
+			'venue' => 'Offline Event',
 			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '9:30 AM to 12:30 PM',
-			'link' => 'https://www.google.com.sg',
+			'link' => 'http://bit.ly/Line_Follower20',
 			'overview' => '
 				<p>
 				Suppress the rebel in you and follow the line to win bragging rights! Discover the Tony Stark in you as you make the fastest robot to finish the track. CURRENTS`20 presents Line Follower, a robotics contest to prove your mettle in dextrous design of a line follower bot. The winners get the added bonus of exciting prizes too.
@@ -659,7 +659,7 @@ Route::get('/events/line_follower', function() {
 			'slots' => false,
 			'format' => 'Will be announced soon',
 			'prize' => 'Cash prize worth Rs.10,000',
-			'rule_book' => ''
+			'rule_book' => 'CURRENTS_LINE_FOLLOWER.pdf'
 		];
 	return view('20.event', $arr);
 });
