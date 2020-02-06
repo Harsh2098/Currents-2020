@@ -590,7 +590,7 @@ Route::get('/events/dhruva', function() {
 			'venue' => 'NIT Trichy',
 			'team_max' => 'This is an individual event.',
 			'timings' => '',
-			'link' => '/',
+			'link' => 'http://bit.ly/Dhruva20_Registration',
 			'overview' => '
 				<p>
 				Creativity begins with a foundation of knowledge, learning a discipline and mastering a way of thought. Dhruva, the flagship event of CURRENTS sponsored by Alumni, provides a chance to project your creative and imaginative ideas. In the initial round basic mathematical skills will be tested. Dhruva not only tests your technical knowledge and engineering expertise but also your creativity in finding solutions when posed a critical situation.
@@ -617,7 +617,7 @@ Route::get('/events/iot_challenge', function() {
 			'venue' => 'Online Event',
 			'team_max' => 'A Team can consist of maximum 2 members.',
 			'timings' => '1:30 PM to 04:30 PM',
-			'link' => '/',
+			'link' => 'http://bit.ly/IOT_Registration',
 			'overview' => '
 				<p>
 				*IOT Challenge Overview*
