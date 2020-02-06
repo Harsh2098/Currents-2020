@@ -180,11 +180,11 @@ html {
 		<div class="title"><div>{{ $title }}<br><br> {!! $date !!}</div></div>
 		<div>
 		<button onclick="location='{{ $link }}'" class="_button tsbutton"
-				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				@if(false)
 				disabled
 				style="background-color: grey"
 				@endif>
-				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				@if(false)
 				Sold Out
 				@else
 				Register Now !
@@ -193,7 +193,7 @@ html {
 		</div>
 		<br><br><br><br>
 		<div>
-		@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+		@if(false)
 		<button onclick="location='https://currents.nitt.edu/workshops'" class="_button tsbutton">
 				Checkout other Workshops
 				</button>
@@ -254,11 +254,11 @@ html {
 			</section>
 			<section id="register">
 			<button onclick="location='{{ $link }}'" class="tsbutton"
-				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				@if(false)
 				disabled
 				style="background-color: grey"
 				@endif>
-				@if($title == "RENEWABLE ENERGY SYSTEMS" || $title == "Machine Learning")
+				@if(false)
 				Sold Out
 				@else
 				Register Now !
