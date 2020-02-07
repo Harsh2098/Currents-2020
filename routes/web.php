@@ -604,7 +604,7 @@ Route::get('/events/dhruva', function() {
 			'slots' => false,
 			'format' => 'Will be announced soon',
 			'prize' => 'Cash prize worth Rs.5,000',
-			'rule_book' => ''
+			'rule_book' => 'Dhruva_Rulebook.pdf'
 		];
 	return view('20.event', $arr);
 });
@@ -631,7 +631,7 @@ Route::get('/events/iot_challenge', function() {
 			'slots' => false,
 			'format' => 'Will be announced soon',
 			'prize' => 'Cash prize worth Rs.10,000',
-			'rule_book' => ''
+			'rule_book' => 'IOT_rulebook.pdf'
 		];
 	return view('20.event', $arr);
 });
