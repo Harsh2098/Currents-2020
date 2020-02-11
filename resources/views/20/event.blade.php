@@ -200,7 +200,7 @@ html {
 			</section>
 			<section id="format">
 				<h1>Format of the Event</h1>
-				<p>{{ $format }}</p>
+				<p>{!! $format !!}</p>
 			</section>
 			<section id="awards">
 				<h1>Prizes</h1>

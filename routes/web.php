@@ -483,14 +483,14 @@ Route::get('/events/colloquium', function() {
 	$arr = ['title' => 'Colloquium',
 			'bg' => 'colloquium.jpeg',
 			'duration' => 'Each team will be given maximum of 10 minutes to present the paper',
-			'date' => 'FEBRUARY 15th 2020 (Deadline for Paper submission: 7th February 2020)',
-			'venue' => 'EEE Department, NIT Trichy',
+			'date' => 'FEBRUARY 15th 2020',
+			'venue' => 'A13 Hall, Admin Block, NIT Trichy',
 			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '9:30 AM to 12:30 PM',
 			'link' => 'http://bit.ly/colloquium_reg',
 			'overview' => '
 				<p>
-				Engineers are the roots of invention. Theorization is the first step towards invention. If you have the ability to catalyse the evolution of science with your ideas, Currents 19 brings to you, COLLOQUIUM, the annual paper presentation event of the Department of EEE, NIT Trichy. A platform where you can present your research work in Electrical and Electronics Engineering and have an opportunity to win INR 10,000 cash prize.
+				Engineers are the roots of invention. Theorization is the first step towards invention. If you have the ability to catalyse the evolution of science with your ideas, Currents 20 brings to you, COLLOQUIUM, the annual paper presentation event of the Department of EEE, NIT Trichy. A platform where you can present your research work in Electrical and Electronics Engineering and have an opportunity to win INR 10,000 cash prize.
 				</p>',
 			'contact' => '
 				<p>Poorvaja:+91 88259 35421</p>
@@ -498,11 +498,9 @@ Route::get('/events/colloquium', function() {
 				<p>Adil    :+91 90613 04318</p>',
 			'color' => 'black',
 			'talign' => 'right',
-			'format' => 'EVENT FORMAT:
+			'format' => 'EVENT FORMAT:<br>
 			Top 10 papers will present during Currents
-			Top 3 will be published in reputed journal
-			Papers to be mailed along with details of authors to 
-			eeea.colloquium20@gmail.com',
+			Papers to be mailed along with details of authors to eeea.colloquium20@gmail.com',
 			'prereq' => true,
 			'slots' => false,
 			'prize' => 'Cash prize worth Rs.10,000',
@@ -544,7 +542,7 @@ Route::get('/events/capture_currents', function() {
 	$arr = ['title' => 'Capture Currents',
 			'bg' => 'capture_currents.jpg',
 			'duration' => '',
-			'date' => 'Round 1 (Deadline: FEBRUARY 4th 2020)<br>Round 2 (Deadline: FEBRUARY 11th 2020)',
+			'date' => 'Round 2 (Deadline: FEBRUARY 12th 2020)',
 			'venue' => 'Online Event',
 			'team_max' => 'This is an individual event.',
 			'timings' => '',
@@ -557,20 +555,20 @@ Route::get('/events/capture_currents', function() {
 				<p>Rasal<br>+91 85474 26790<p>
 				<p>Madhavan<br>+91 82817 92956</p>
 				<p>Arun<br>+91 73589 19092</p>',
-			'format' => 'EVENT FORMAT:
+			'format' => 'EVENT FORMAT:<br>
 				The photography contest will comprise two rounds: preliminary and final
-				rounds.
-				Preliminary round
+				rounds.<br><br>
+				Preliminary round<br>
 				There will be one sole eliminative preliminary round for the event. Participants can submit
 				only ONE photograph pertaining to any theme of the participant’s choice.The theme
 				should be mentioned along with caption.The judges will pick finalists from the preliminary
-				stage.
+				stage.<br><br>
 				
-				Final round
+				Final round<br>
 				Participants would be required to submit only ONE photograph for the final round with a
 				caption for the theme. The theme will be announced after the preliminary round. These
 				photographs will be published in currents social media handles and the number of likes it
-				receives will have a partial weightage along with the judges’ decision.
+				receives will have a partial weightage along with the judges’ decision.<br>
 				',
 			'prize' => 'Prizes worth Rs.5000 and Gift vouchers worth Rs.3000',
 			'color' => 'white',
@@ -585,11 +583,11 @@ Route::get('/events/capture_currents', function() {
 Route::get('/events/dhruva', function() {
 	$arr = ['title' => 'Dhruva',
 			'bg' => 'dhruva.jpeg',
-			'duration' => '',
-			'date' => 'FEBRUARY 15th 2020 (Evening) - Round 1<br>FEBRUARY 16th 2020 (Morning) - Round 2',
-			'venue' => 'NIT Trichy',
-			'team_max' => 'This is an individual event.',
-			'timings' => '',
+			'duration' => '1 HOUR',
+			'date' => '<br>FEBRUARY 14th 2020 - Round 1<br>FEBRUARY 15th 2020 - Round 2',
+			'venue' => 'Orion, NIT Trichy',
+			'team_max' => 'A Team can consist of maximum 2 members.',
+			'timings' => '<br>Round 1: 4:30 PM to 6:00 PM<br>Round 2: 8:30 AM to 10:00 AM',
 			'link' => 'http://bit.ly/Dhruva20_Registration',
 			'overview' => '
 				<p>
@@ -602,8 +600,18 @@ Route::get('/events/dhruva', function() {
 			'talign' => 'left',
 			'prereq' => true,
 			'slots' => false,
-			'format' => 'Will be announced soon',
-			'prize' => 'Cash prize worth Rs.5,000',
+			'format' => 'ROUND 1:<br>
+				1) This round will consist of higher order thinking style puzzles, which will be presented to
+				the participants at the start of the event.<br>
+				2) The duration of this round is 1 hour.<br>
+				3) The main focus of this round will be around the IQ and EQ of the participants.<br>
+				4) Points will be awarded for both speed and accuracy of the answers.<br>
+				<br>ROUND 2:<br>
+				1) The event for this round will be a surprise that will be revealed on the venue.<br>
+				2) The duration of this round will be one hour.<br>
+				3) The primary focus of this event will be communication, spontaneous creativity and basic<br>
+				technical knowledge in circuitry.',
+			'prize' => 'Cash prize worth Rs.10,000',
 			'rule_book' => 'Dhruva_Rulebook.pdf'
 		];
 	return view('20.event', $arr);
@@ -612,15 +620,16 @@ Route::get('/events/dhruva', function() {
 Route::get('/events/iot_challenge', function() {
 	$arr = ['title' => 'IOT Home Automation Challenge',
 			'bg' => 'iot.jpeg',
-			'duration' => '3 HOURS',
-			'date' => 'FEBRUARY 15th 2020',
-			'venue' => 'Online Event',
+			'duration' => '3.5 HOURS',
+			'date' => 'FEBRUARY 14th 2020',
+			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'A Team can consist of maximum 2 members.',
-			'timings' => '1:30 PM to 04:30 PM',
+			'timings' => '4:30 PM to 8:00 PM',
 			'link' => 'http://bit.ly/IOT_Registration',
 			'overview' => '
 				<p>
-				*IOT Challenge Overview*
+				As the communication between devices has grown over the years through the internet, more and more applications have been achieved using the internet of things.
+This edition of Currents brings you an opportunity to display your talent in this field. Make sure you participate in the IoT Home automation challenge and win exciting prizes worth INR 10,000.
 				</p>',
 			'contact' => '
 				<p>Sithartha - +91 94454 60862</p>
@@ -629,8 +638,13 @@ Route::get('/events/iot_challenge', function() {
 			'talign' => 'left',
 			'prereq' => true,
 			'slots' => false,
-			'format' => 'Will be announced soon',
-			'prize' => 'Cash prize worth Rs.10,000',
+			'format' => '1. The problem statement for the event will be release at the start of the event.<br>
+			2. The participants will be given half an hour to ideate and 1.5 hours to design the
+			module.<br>
+			3. Points will be awarded for creativity, coding and output.<br>For those who have registered for the IOT workshop, the components will be
+			provided at the workshop. The problem statement will be similar to the one taught in the
+			workshop.<br>',
+			'prize' => 'Cash prize worth Rs.10,000</p>',
 			'rule_book' => 'IOT_rulebook.pdf'
 		];
 	return view('20.event', $arr);
@@ -641,7 +655,7 @@ Route::get('/events/line_follower', function() {
 			'bg' => 'iot.jpeg',
 			'duration' => '3 HOURS',
 			'date' => 'FEBRUARY 16th 2020',
-			'venue' => 'Offline Event',
+			'venue' => 'Machines Lab, EEE Department, NIT Trichy',
 			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '9:30 AM to 12:30 PM',
 			'link' => 'http://bit.ly/Line_Follower20',
@@ -657,7 +671,14 @@ Route::get('/events/line_follower', function() {
 			'talign' => 'left',
 			'prereq' => true,
 			'slots' => false,
-			'format' => 'Will be announced soon',
+			'format' => '
+			1. Participants are not allowed to touch the bot after the timer starts.<br>
+			2. Maximum bot size must be 30 cmx30cmx30cm at start. The bot can expand after start.<br>
+			3. No two points on the bot can have a potential difference greater than 12 V.<br>
+			4. Each team has 2 trials in which the best is considered.<br>
+			5. Maximum time for completing the track is 10 minutes.<br>
+			6. The starting procedure of the bot should be simple and should not involve provision of manual force or impulse in any direction to the bot.<br>
+			7. Participants are allowed to adjust sensors (Gain, Position etc.), change speed settings and make repairs after the first run.<br>',
 			'prize' => 'Cash prize worth Rs.10,000',
 			'rule_book' => 'CURRENTS_LINE_FOLLOWER.pdf'
 		];
