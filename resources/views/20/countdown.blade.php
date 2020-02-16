@@ -19,7 +19,7 @@
 						<a href="eureka">Eureka</a>
 						<a href="volts">Volts</a>
 						<a href="workshops">Workshops</a>
-						<a href="cca">CCA</a>
+						<a href="sponsors">Sponsors</a>
 						<div class="dropdown">
 							<button class="dropbtn">UNIQ 
 							<i class="fa fa-caret-down"></i>

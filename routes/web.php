@@ -22,7 +22,7 @@ Route::get('/hospitality',function(){
 	return view('20.hospitality');
 });
 Route::get('/sponsors',function(){
-	return view('19.coming_soon');
+	return view('20.sponsors');
 });
 Route::get('/schedule', function(){
 	return view('19.schedule');
