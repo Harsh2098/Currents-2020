@@ -120,6 +120,18 @@ color: #333;">
     </div>
   <div class="container-fluid">
     <div class="row fh5co-post-entry">
+
+    <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+        <figure>
+        <h3></h3>
+        <a>
+            <h2 class="fh5co-article-title">
+              <img class="s-logo" src="" />
+            </h2>
+        </a>
+        <h3> </h3>
+        </figure>
+      </article>
       
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
@@ -145,6 +157,8 @@ color: #333;">
         </figure>
       </article>
 
+      <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
         <h3> Programming Partners </h3>
@@ -168,8 +182,6 @@ color: #333;">
         <h3> ACE Engineering Academy </h3>
         </figure>
       </article>
-
-      <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
 
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
@@ -195,6 +207,20 @@ color: #333;">
         </figure>
       </article>
 
+      <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+
+      <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+        <figure>
+        <h3></h3>
+        <a>
+            <h2 class="fh5co-article-title">
+              <img class="s-logo" src="" />
+            </h2>
+        </a>
+        <h3> </h3>
+        </figure>
+      </article>
+
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
         <h3> Official Gifting Partner </h3>
@@ -204,6 +230,32 @@ color: #333;">
             </h2>
         </a>
         <h3> The Souled Store </h3>
+        </figure>
+      </article>
+
+      <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+        <figure>
+        <h3> Online Media Partner </h3>
+        <a href="http://www.knowafest.com/">
+            <h2 class="fh5co-article-title">
+              <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/knowafest.png" />
+            </h2>
+        </a>
+        <h3> Knowafest </h3>
+        </figure>
+      </article>
+
+      <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+
+      <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+        <figure>
+        <h3></h3>
+        <a>
+            <h2 class="fh5co-article-title">
+              <img class="s-logo" src="" />
+            </h2>
+        </a>
+        <h3> </h3>
         </figure>
       </article>
 
@@ -228,20 +280,6 @@ color: #333;">
             </h2>
         </a>
         <h3> Dosaa Xpress </h3>
-        </figure>
-      </article>
-
-      <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-
-      <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
-        <figure>
-        <h3> Knowledge Partner </h3>
-        <a href="http://www.knowafest.com/">
-            <h2 class="fh5co-article-title">
-              <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/knowafest.png" />
-            </h2>
-        </a>
-        <h3> Knowafest </h3>
         </figure>
       </article>
 
