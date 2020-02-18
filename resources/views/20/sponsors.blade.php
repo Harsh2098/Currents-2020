@@ -123,99 +123,111 @@ color: #333;">
       
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Fueled By </h3>
         <a href="https://www.gulfoilindia.com/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/gulf.png" />
             </h2>
         </a>
         <h3> Gulf </h3>
-        <h5> Fueled By </h5>
         </figure>
       </article>
 
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Powered By </h3>
+        <a href="https://www.aurigo.com/">
+            <h2 class="fh5co-article-title">
+              <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/aurigo_red.png" />
+            </h2>
+        </a>
+        <h3> Aurigo </h3>
+        </figure>
+      </article>
+
+      <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+        <figure>
+        <h3> Programming Partners </h3>
         <a href="https://www.codechef.com/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/code_chef.jpg" />
             </h2>
         </a>
         <h3> Codechef </h3>
-        <h5> Programming Partners </h5>
         </figure>
       </article>
 
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Official Education Partner </h3>
         <a href="https://www.aceenggacademy.com/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/ace.png" />
             </h2>
         </a>
         <h3> ACE Engineering Academy </h3>
-        <h5> Official Education Partner </h5>
         </figure>
       </article>
 
+      <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Knowledge Partner </h3>
         <a href="https://www.uniqtechnologies.co.in/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/uniq.png" />
             </h2>
         </a>
         <h3> UNIQ Technologies </h3>
-        <h5> Knowledge Partner </h5>
         </figure>
       </article>
 
-      <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Online Media Partners </h3>
         <a href="https://ohcampus.com/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/oncampus.png" />
             </h2>
         </a>
         <h3> OhCampus </h3>
-        <h5> Online Media Partners </h5>
         </figure>
       </article>
 
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Official Gifting Partner </h3>
         <a href="https://www.thesouledstore.com/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/souled_store.png" />
             </h2>
         </a>
         <h3> The Souled Store </h3>
-        <h5> Official Gifting Partner </h5>
         </figure>
       </article>
 
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Food Partner </h3>
         <a href="https://www.anjappar.com/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/anjappar.png" />
             </h2>
         </a>
         <h3> Anjappar Chettinad Restaurant </h3>
-        <h5> Food Partner </h5>
         </figure>
       </article>
 
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
+        <h3> Food Partner </h3>
         <a href="http://dosaexpress.in/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/dosa_xpress.png" />
             </h2>
         </a>
         <h3> Dosaa Xpress </h3>
-        <h5> Food Partner </h5>
         </figure>
       </article>
 
@@ -223,25 +235,13 @@ color: #333;">
 
       <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
         <figure>
-        <a href="https://www.aurigo.com/">
-            <h2 class="fh5co-article-title">
-              <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/Aurigo-white-logo-01.png" />
-            </h2>
-        </a>
-        <h3> Aurigo </h3>
-        <h5> Powered By </h5>
-        </figure>
-      </article>
-
-      <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
-        <figure>
+        <h3> Knowledge Partner </h3>
         <a href="http://www.knowafest.com/">
             <h2 class="fh5co-article-title">
               <img class="s-logo" src="https://currents.nitt.edu/images/sponsors/20/knowafest.png" />
             </h2>
         </a>
         <h3> Knowafest </h3>
-        <h5> Knowledge Partner </h5>
         </figure>
       </article>
 
